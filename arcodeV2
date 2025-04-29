@@ -1,0 +1,111 @@
+from faster_whisper import WhisperModel
+import sounddevice as sd
+import numpy as np
+import wave
+from pydub import AudioSegment
+import threading
+import uuid
+import os
+import time
+
+#oled libraries
+from pathlib import Path
+from demo_opts import get_device
+from luma.core.virtual import terminal
+from PIL import ImageFont
+
+def make_font(name, size):
+    font_path = str(Path(__file__).resolve().parent.joinpath('fonts', name))
+    return ImageFont.truetype(font_path, size)
+
+
+recording_queue = []
+device = get_device()
+    
+term = None
+try:
+    font = make_font("FreePixel.ttf", 12)
+    term = terminal(device, font)
+except Exception as e:
+    print(f"OLED setup failed: {e}")
+
+
+
+
+
+
+def initialize_model(model_size):
+    model = WhisperModel(model_size, device="cpu", compute_type="int8")
+    return model
+
+def add_to_queue(wave_filename):
+    recording_queue.append(wave_filename)
+
+def transcribe_audio(model):
+    while True:
+        if not recording_queue:
+            time.sleep(0.1)
+            continue
+        
+        audio_filename = recording_queue.pop(0)
+
+        try:
+            segments, info = model.transcribe(audio_filename, beam_size=5)
+            for segment in segments:
+                print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
+                #trying to print to oled
+                if term:
+                    term.println(segment.text)
+                    term.flush()
+
+
+            #might need to move before the term code
+            # Attempt to delete the original WAV file
+            if os.path.exists(audio_filename):
+                os.remove(audio_filename)
+                #print(f"Deleted WAV file: {audio_filename}")
+            else:
+                print(f"File not found: {audio_filename}")
+       
+        except Exception as e:
+            print(f"Error during recording or conversion: {e}")
+            continue
+
+def record_audio(duration=4, sample_rate=44100, channels=1, dtype='float64'):
+    while True:
+        filename = str(uuid.uuid4())
+        wave_filename = os.path.normpath(filename + ".wav")  # Temporary WAV file
+
+        print("Recording...")
+        audio = sd.rec(int(duration * sample_rate), samplerate=sample_rate, channels=channels, dtype=dtype)
+        sd.wait()  # Wait until the recording is finished
+
+        try:
+            # Save the audio to a WAV file
+            with wave.open(wave_filename, 'wb') as wf:
+                wf.setnchannels(1)  # Mono
+                wf.setsampwidth(2)  # 2 bytes per sample
+                wf.setframerate(sample_rate)
+                wf.writeframes((audio * 32767).astype(np.int16).tobytes())  # Convert to int16
+
+            add_to_queue(wave_filename)
+            
+        except Exception as e:
+            print(f"Error during recording or conversion: {e}")
+            continue
+
+
+# Create model
+model = initialize_model("base.en")
+
+# Create threads
+record_thread = threading.Thread(target=record_audio)
+transcribe_thread = threading.Thread(target=transcribe_audio, args=(model,))
+
+# Start the threads
+record_thread.start()
+transcribe_thread.start()
+
+# Wait for the threads to complete
+record_thread.join()
+transcribe_thread.join()
