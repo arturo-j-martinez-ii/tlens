@@ -1,6 +1,6 @@
 _**About This Project:**_
 
-**AR Glasses** is a UTSA Quality of Life + Challenger Project being currently developed by freshman Electrical Engineering major Arturo Martinez.
+**AR Glasses** is a UTSA Quality of Life + Challenger Project being currently developed by  Arturo Martinez, a UTSA freshman Electrical Engineering major.
 
 The goal of this project is to develop a **universial transcription lens glasses attachment** that doesn't require Wi-Fi or celluar device for a veteran named Micheal.
 
