@@ -69,6 +69,7 @@ def transcribe_audio(model):
                     term.println(segment.text)
                     term.flush()
 
+        finally:
             #might need to move before the term code
             #deletes original audio file, prints error if it can't
             if os.path.exists(audio_filename):
@@ -78,9 +79,9 @@ def transcribe_audio(model):
                 print(f"File not found: {audio_filename}")
 
         #prints error if anything fails and continues loop
-        except Exception as e:
-            print(f"Error during recording or conversion: {e}")
-            continue
+        #except Exception as e:
+           #print(f"Error during recording or conversion: {e}")
+            #continue
 
 #record audio for the transcription program to process
 def record_audio(duration=4, sample_rate=44100, channels=1, dtype='float64'):
