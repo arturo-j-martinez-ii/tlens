@@ -40,11 +40,19 @@ _**Setting Up:**_
 
 _*In Progress*_
 
-1. Go to https://ubuntu.com/download/raspberry-pi
-2. Install the latest version of Ubuntu LTS onto your computer
-3. Go to https://www.raspberrypi.com/software/
-4. Install the latest version of Raspberry Pi Imager for your operating system on to your computer
-5. Plug in microSD card into your PC [either with the USB adapter or port on your computer]
+1. Go to https://www.raspberrypi.com/software/
+2. Install the latest version of Raspberry Pi Imager for your operating system on to your computer
+3. Plug in microSD card into your PC [either with the USB adapter or port on your computer]
+4. Open Raspberry Pi Imager
+5. Press "CHOOSE DEVICE"
+6. Select "Raspberry Pi 5"
+7. Press "CHOOSE OS"
+8. Select "Other general-purpose OS"
+9. Select "Ubuntu"
+10. Select "Ubuntu Desktop XX.XX (64-bit)" [should be the first option, X's are placeholders for the latest version]
+11. Press "CHOOSE STORAGE"
+12. Select your microSD card [if using adapter, it could be labeled under "Generic STORAGE DEVICE USB Device"]
+13. Press "NEXT"
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
