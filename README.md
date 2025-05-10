@@ -45,7 +45,6 @@ _*In Progress*_
 3. Go to https://www.raspberrypi.com/software/
 4. Install the latest version of Raspberry Pi Imager for your operating system on to your computer
 5. Plug in microSD card into your PC [either with the USB adapter or port on your computer]
-6. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
