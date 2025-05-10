@@ -11,7 +11,22 @@ _**Materials Used:**_
 
 Crystalfontz 128x56 Transparent OLED Display: https://www.crystalfontz.com/product/cfal12856a00151b-128x56-transparent-oled-screen
 
+
+
 Custom PCB File Printed by PCBWay: _Future Goal_
+
+Raspberry Pi 5 [8GB RAM] Starter Kit (128GB microSD card, case with cooling fan, 45W power supply [always try to use 5 volts and 5 amps power supply]): https://a.co/d/87RnvB4
+
+**OR buy parts separately (only buy the starter kit or individual components)**
+
+Raspberry Pi 5 [8GB RAM or more]: https://a.co/d/8Ey5J5D
+
+128GB [or bigger] microSD Card: https://www.amazon.com/s?k=128gb+microsd+card 
+
+SD/microSD USB Adapter [purchase if your PC doesn't have an SD/microSD card reader]: https://www.amazon.com/s?k=microsd+card+adapter+for+pc&ref=nb_sb_ss_ts-doa-p_2_17
+
+Rasberry Pi 5 Case with Cooling Fan [feel free to use any case with a cooling fan, will need room to route wires to OLED and PCB]: https://a.co/d/82YHFma
+
 
 
 
