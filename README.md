@@ -4,6 +4,7 @@ _**About This Project:**_
 
 The goal of this project is to develop a **universial transcription lens glasses attachment** that doesn't require Wi-Fi or a celluar device for a deaf and visually impaired veteran named Micheal and anyone to use.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 _**Materials Used:**_
 
@@ -33,6 +34,7 @@ Rasberry Pi 5 Case with Cooling Fan [feel free to use any case with a cooling fa
 
 Seperate Computer [with Wi-Fi], Keyboard, and Mouse to install the Ubuntu OS
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 _**Setting Up:**_
 
@@ -45,6 +47,7 @@ _*In Progress*_
 5. Plug in microSD card into your PC [either with the USB adapter or port on your computer]
 6. 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 _**Future Goals:**_
 
