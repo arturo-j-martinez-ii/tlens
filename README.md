@@ -15,7 +15,7 @@ Crystalfontz 128x56 Transparent OLED Display: https://www.crystalfontz.com/produ
 
 Wireless Lavalier Microphone [ensure it has USB connector so it can connect to Pi's USB ports]: https://www.amazon.com/s?k=wireless+lavalier+microphones
 
-SD/microSD USB Adapter [purchase if your PC doesn't have an SD/microSD card reader]: https://www.amazon.com/s?k=microsd+card+adapter+for+pc
+SD/microSD USB Adapter [purchase if your computer doesn't have an SD/microSD card reader]: https://www.amazon.com/s?k=microsd+card+adapter+for+pc
 
 50000mAh Power Bank [ensure it can output 5V and 3+A (get as close to 5A as possible)]: https://www.amazon.com/s?k=50000mah+power+bank
 
@@ -31,12 +31,20 @@ Raspberry Pi 5 [8GB RAM or more]: https://a.co/d/8Ey5J5D
 
 Rasberry Pi 5 Case with Cooling Fan [feel free to use any case with a cooling fan, will need room to route wires to OLED and PCB]: https://a.co/d/82YHFma
 
-Seperate Computer [with Wi-Fi], Keyboard, and Mouse to install the Ubuntu OS and transcription code
+Seperate Computer [with Wi-Fi], Keyboard, and Mouse to install the Ubuntu OS
 
 
 _**Setting Up:**_
 
 _*In Progress*_
+
+1. Go to https://ubuntu.com/download/raspberry-pi
+2. Install the latest version of Ubuntu LTS onto your computer
+3. Go to https://www.raspberrypi.com/software/
+4. Install the latest version of Raspberry Pi Imager for your operating system on to your computer
+5. Plug in microSD card into your PC [either with the USB adapter or port on your computer]
+6. 
+
 
 _**Future Goals:**_
 
