@@ -10,6 +10,8 @@ _**Materials Used:**_
 
 _*In Progress*_
 
+Seperate Computer [with Wi-Fi], Keyboard, and Mouse to install the Ubuntu OS
+
 3D-Printed AR Glasses Attachment Onshape File: https://cad.onshape.com/documents/2b03bd95f3beaf6443ddc2ec/w/4e36cb5ff0dc8d07eeac17e6/e/a492bb96a45b8f75442e17c6?renderMode=0&uiState=681d2de2ce7941631ad96f14
 
 Crystalfontz 128x56 Transparent OLED Display: https://www.crystalfontz.com/product/cfal12856a00151b-128x56-transparent-oled-screen
@@ -31,8 +33,6 @@ Raspberry Pi 5 [8GB RAM or more]: https://a.co/d/8Ey5J5D
 128GB [or bigger] microSD Card: https://www.amazon.com/s?k=128gb+microsd+card 
 
 Rasberry Pi 5 Case with Cooling Fan [feel free to use any case with a cooling fan, will need room to route wires to OLED and PCB]: https://a.co/d/82YHFma
-
-Seperate Computer [with Wi-Fi], Keyboard, and Mouse to install the Ubuntu OS
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
