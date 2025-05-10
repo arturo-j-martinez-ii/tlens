@@ -2,7 +2,7 @@ _**About This Project:**_
 
 **AR Glasses** is a UTSA Quality of Life + Challenger Project being currently developed by  Arturo Martinez, a UTSA Top Scholar Electrical Engineering freshman.
 
-The goal of this project is to develop an **open-source, universial transcription lens glasses attachment** that doesn't require Wi-Fi or a celluar device for a deaf and visually impaired veteran named Micheal and anyone to use.
+The goal of this project is to develop an **open-source, universal transcription lens glasses attachment** that doesn't require Wi-Fi or a cellular device for a deaf and visually impaired veteran and anyone to use.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
