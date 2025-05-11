@@ -59,3 +59,8 @@ _*In Progress*_
 _**Future Goals:**_
 
 _*In Progress*_
+
+1. Improving CAD of glasses attachment, making it easy to assemble and repair
+2. Designing a PCB to connect OLED to 24 Position ZIF Connector that takes 4 wires from Raspberry Pi 5 [since we're using I2C, we only need: 3.3v, GND, D0 (SCL), D1 (SDA)]
+3. Designing an convex optical lens that will "move" the focal point of screen further away
+4. Continuing to document and improve accessability of this project
