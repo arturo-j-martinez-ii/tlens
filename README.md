@@ -77,8 +77,18 @@ _First, we will install Ubuntu on our microSD card_
 _Next, we are going to set up our Raspberry Pi with our Ubuntu microSD card_
 
 19. Install Raspberry Pi 5 into your specific case [installation will vary, however I will show how mine is set up]
-19a.  
-21. Insert the microSD card into the Raspberry Pi 5 []
+
+19a.  Disassemble/open case to reveal parts ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/1%20-%20Case%20Before%20Assembly.jpeg?raw=true)
+19b. Insert Raspberry Pi into bottom of case [make sure you can see through all 4 screw holes on Pi's corners!] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/2%20-%20Placing%20Raspberry%20Pi%20into%20Case%20Bottom.jpeg?raw=true)
+19c. Connect the case fan to the "FAN" header near USB ports and close white frame over bottom of case [do not force this! the Pi should not move in the case after this step] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/3%20-%20Showing%20How%20Fan%20and%20Pi%20Will%20Connect.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/4%20-%20Fan%20and%20Pi%20Connected.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/5%20-%20Fan%20and%20Bottom%20Closed%20Together.jpeg?raw=true)
+19d. Flip the Pi and insert the microSD card into the Raspberry Pi 5 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/6%20-%20Where%20microSD%20Inserts.jpeg?raw=true) ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/7%20-%20microSD%20Inserted.jpeg?raw=true)
+
+Keep the lid open as we'll need to make some modifications to fit the wire through and can test if the OLED functions properly!
+
+20.
+21.
 22. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
