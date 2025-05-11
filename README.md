@@ -71,7 +71,7 @@ _First, we will install Ubuntu on our microSD card_
 **MAKE SURE NOTHING IMPORTANT IS ON YOUR microSD CARD!!! You will not be able to recover any data after pressing "YES"**
 
 14. Press "YES"
-15. Wait for the imager to write to the microSD card and for the pop-up saying "Ubuntu Desktop XX.XX (64-bit) has been written to SDXC Card [or if using adapter, 'Generic STORAGE DEVICE USB Device']"
+15. Wait for the imager to write to and verifying Ubuntu on the microSD card and for the pop-up saying "Ubuntu Desktop XX.XX (64-bit) has been written to SDXC Card [or if using adapter, 'Generic STORAGE DEVICE USB Device']"
 16. Press "Continue"
 17. Close the Raspberry Pi Imager
 18. You can now safely remove the microSD card from your computer [Ubuntu is now succesfully installed on your microSD card!]
