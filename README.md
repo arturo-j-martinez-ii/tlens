@@ -2,7 +2,7 @@ _**About This Project:**_
 
 **AR Glasses** is a Quality of Life Plus Challenger Project developed by  Arturo Martinez, a UTSA Top Scholar Electrical Engineering freshman.
 
-This project's ultimate goal is to develop an **open-source, universal transcription lens glasses attachment** that doesn't require Wi-Fi or a cellular device for a deaf and visually impaired veteran and anyone to use.
+This project's ultimate goal is to develop an **open-source, universal transcription lens glasses attachment** that doesn't require Wi-Fi or a cellular device for a deaf and visually impaired veteran and, eventually, anyone to use.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -10,7 +10,11 @@ _**Materials Used:**_
 
 _*In Progress*_
 
-Seperate Computer [with Wi-Fi], Keyboard, and Mouse to install the Ubuntu OS
+A Computer connected Wi-Fi with a Keyboard and Mouse to install the Ubuntu OS
+
+Another Keyboard and Mouse to use the Raspberry Pi 5 [wired/wireless,  can be the same ones you used with your computer] 
+
+A monitor [the Raspberry Pi will not display to your laptop, can be same you used with your computer]:
 
 3D-Printed AR Glasses Attachment Onshape File: https://cad.onshape.com/documents/2b03bd95f3beaf6443ddc2ec/w/4e36cb5ff0dc8d07eeac17e6/e/a492bb96a45b8f75442e17c6?renderMode=0&uiState=681d2de2ce7941631ad96f14
 
@@ -28,21 +32,25 @@ Wires to connect OLED to Pi: _In Progress_
 
 Custom PCB File Printed by PCBWay: _Future Goal_
 
-Raspberry Pi 5 [8GB RAM] Starter Kit (128GB microSD card + case with cooling fan): https://a.co/d/87RnvB4
+Raspberry Pi 5 [8GB RAM] Starter Kit (128GB microSD card + case with cooling fan + power supply): https://a.co/d/87RnvB4
 
 &#8593; **OR buy parts separately (only buy the starter kit or individual components [the Pi 5, microSD card, and case with cooling fan])** &#8595;
 
 Raspberry Pi 5 [8GB RAM or more]: https://a.co/d/8Ey5J5D
 
-128GB [or bigger] microSD Card: https://www.amazon.com/s?k=128gb+microsd+card 
+128GB [recommend using 32GB or bigger] microSD Card: https://www.amazon.com/s?k=128gb+microsd+card 
 
 Rasberry Pi 5 Case with Cooling Fan [feel free to use any case with a cooling fan, will need room to route wires to OLED and PCB]: https://a.co/d/82YHFma
+
+Rasberyy Pi 5 Power Supply [not necessary, you can have the Pi running off the power bank alone]: https://a.co/d/awwQ0f8
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 _**Setting Up:**_
 
 _*In Progress*_
+
+_First, we will install Ubuntu on our microSD card_
 
 1. Go to https://www.raspberrypi.com/software/
 2. Install the latest version of Raspberry Pi Imager for your operating system on to your computer
@@ -65,7 +73,13 @@ _*In Progress*_
 16. Press "Continue"
 17. Close the Raspberry Pi Imager
 18. You can now safely remove the microSD card from your computer [Ubuntu is now succesfully installed on your microSD card!]
-19. 
+
+_Next, we are going to set up our Raspberry Pi with our Ubuntu microSD card_
+
+19. Install Raspberry Pi 5 into your specific case [installation will vary, however I will show how mine is set up]
+19a.  
+21. Insert the microSD card into the Raspberry Pi 5 []
+22. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
