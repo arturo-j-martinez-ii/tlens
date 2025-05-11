@@ -42,9 +42,9 @@ Raspberry Pi 5 [8GB RAM or more]: https://a.co/d/8Ey5J5D
 
 128GB [recommend using 32GB or bigger] microSD Card: https://www.amazon.com/s?k=128gb+microsd+card 
 
-Rasberry Pi 5 Case with Cooling Fan [feel free to use any case with a cooling fan, will need room to route wires to OLED and PCB]: https://a.co/d/82YHFma
+Raspberry Pi 5 Case with Cooling Fan [feel free to use any case with a cooling fan, will need room to route wires to OLED and PCB]: https://a.co/d/82YHFma
 
-Rasberyy Pi 5 Power Supply [not necessary, you can have the Pi running off the power bank alone]: https://a.co/d/awwQ0f8
+Raspberry Pi 5 Power Supply [not necessary, you can have the Pi running off the power bank alone]: https://a.co/d/awwQ0f8
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -87,7 +87,7 @@ _Next, we are going to set up our Raspberry Pi with our Ubuntu microSD card_
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/5%20-%20Fan%20and%20Bottom%20Closed%20Together.jpeg?raw=true)
 19d. Flip the Pi and insert the microSD card into the Raspberry Pi 5 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/6%20-%20Where%20microSD%20Inserts.jpeg?raw=true) ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/7%20-%20microSD%20Inserted.jpeg?raw=true)
 
-Keep the lid off as we'll need to make some modifications to fit the wire through and can test if the OLED functions properly!
+Keep the lid off as we'll need to make some modifications to fit the wires through and can test if the OLED functions properly!
 
 Now you can flip it back over, and we can begin setting up Ubuntu on the Pi!
 
