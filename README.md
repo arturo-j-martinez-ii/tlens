@@ -96,13 +96,18 @@ Now you can flip it back over, and we can begin setting up Ubuntu on the Pi!
 _I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTube is a great resource if you're ever confused or lost!_
 
 22. After this, the Pi should power on and show a black and orange Ubuntu startup screen! [the power LED will be flashing green until you reach desktop] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/8%20-%20Ubuntu%20Startup%20Screen.jpeg?raw=true)
-23. A white "Welcome" screen should appear with language options
+23. A  "Welcome" screen should appear with language options
 24. Choose the language you prefer the operating system to be in
 25. Press "Next"
 26. A "Typing" screen should appear with various options for layouts
 27. Choose your preferred layout
 28. Press "Next"
-29. Connect to your prefered Wi-Fi **or** plug in Ethernet   
+29. A "Network" screen should appear with various options to connect to the internet
+30. Connect to your prefered Wi-Fi **or** plug in Ethernet [you may need to give it a moment to bring up the Wi-Fi login screen]
+31. Input your Wi-Fi password and press "Connect" [may need to give it a few seconds to connect, wait for the grey "Skip" button to turn into an orange "Next" button]
+32. Press "Next"
+33. A "Time Zone" screen should appear with a map of the world on the bottom
+34. Click on "Search Cities" and input your general area, so your Pi is in the correct timezone [you can put whatever timezone you want, it won't affect the Pi's functionality]
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
