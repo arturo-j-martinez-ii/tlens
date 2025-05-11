@@ -16,6 +16,8 @@ Seperate Computer [with Wi-Fi], Keyboard, and Mouse to install the Ubuntu OS
 
 Crystalfontz 128x56 Transparent OLED Display: https://www.crystalfontz.com/product/cfal12856a00151b-128x56-transparent-oled-screen
 
+Crystalfontz 24 Position, 0.5mm Pitch, Gold, FCC FPC ZIF Connector: https://www.crystalfontz.com/product/cs050z24ga0-24-position-zif-connector
+
 Wireless Lavalier Microphone [ensure it has USB connector so it can connect to Pi's USB ports]: https://www.amazon.com/s?k=wireless+lavalier+microphones
 
 SD/microSD USB Adapter [purchase if your computer doesn't have an SD/microSD card reader]: https://www.amazon.com/s?k=microsd+card+adapter+for+pc
