@@ -91,6 +91,19 @@ Keep the lid off as we'll need to make some modifications to fit the wires throu
 
 Now you can flip it back over, and we can begin setting up Ubuntu on the Pi!
 
+20. Connect the power, keyboard, mouse, and micro HDMI cable to the Pi and connect the micro HDMI to your monitor
+
+_I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTube is a great resource if you're ever confused or lost!_
+
+22. After this, the Pi should power on and show a black and orange Ubuntu startup screen! [the power LED will be flashing green until you reach desktop] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/8%20-%20Ubuntu%20Startup%20Screen.jpeg?raw=true)
+23. A white "Welcome" screen should appear with language options
+24. Choose the language you prefer the operating system to be in
+25. Press "Next"
+26. A "Typing" screen should appear with various options for layouts
+27. Choose your preferred layout
+28. Press "Next"
+29. Connect to your prefered Wi-Fi **or** plug in Ethernet   
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
