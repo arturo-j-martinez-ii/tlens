@@ -22,6 +22,8 @@ SD/microSD USB Adapter [purchase if your computer doesn't have an SD/microSD car
 
 50000mAh Power Bank [ensure it can output 5V and 3+A (get as close to 5A as possible)]: https://www.amazon.com/s?k=50000mah+power+bank
 
+Wires to connect OLED to Pi: _In Progress_
+
 Custom PCB File Printed by PCBWay: _Future Goal_
 
 Raspberry Pi 5 [8GB RAM] Starter Kit (128GB microSD card + case with cooling fan): https://a.co/d/87RnvB4
