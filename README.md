@@ -14,7 +14,9 @@ A Computer connected Wi-Fi to install the Ubuntu OS
 
 A Keyboard and Mouse to use the Raspberry Pi 5 [wired/wireless, can be the same ones you used with your computer] 
 
-A monitor [the Raspberry Pi will not display to your laptop, can be same you used with your computer]:
+A monitor [the Raspberry Pi will not display to your laptop, can be same you used with your computer, this is the one I used!]: https://a.co/d/aF4n6GT
+
+HDMI to microHDMI Cable [you need the microHDMI part to connect from Raspberry Pi! the HDMI can be changed for whatever your monitor inputs!]: https://www.amazon.com/s?k=hdmi+to+micro+hdmi
 
 3D-Printed AR Glasses Attachment Onshape File: https://cad.onshape.com/documents/2b03bd95f3beaf6443ddc2ec/w/4e36cb5ff0dc8d07eeac17e6/e/a492bb96a45b8f75442e17c6?renderMode=0&uiState=681d2de2ce7941631ad96f14
 
@@ -26,7 +28,7 @@ Wireless Lavalier Microphone [ensure it has USB connector so it can connect to P
 
 SD/microSD USB Adapter [purchase if your computer doesn't have an SD/microSD card reader]: https://www.amazon.com/s?k=microsd+card+adapter+for+pc
 
-50000mAh Power Bank [ensure it can output 5V and 3+A (get as close to 5A as possible)]: https://www.amazon.com/s?k=50000mah+power+bank
+50000mAh Power Bank [you can use any, ensure it can output 5V and 3A+ (get as close to 5A as possible)]: https://www.amazon.com/s?k=50000mah+power+bank
 
 Wires to connect OLED to Pi: _In Progress_
 
