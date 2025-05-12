@@ -36,7 +36,7 @@ Custom PCB File Printed by PCBWay: _Future Goal_
 
 Raspberry Pi 5 [8GB RAM] Starter Kit (128GB microSD card + case with cooling fan + power supply): https://a.co/d/87RnvB4
 
-&#8593; **OR buy parts separately (only buy the starter kit or individual components [the Pi 5, microSD card, and case with cooling fan])** &#8595;
+&#8593; **OR buy parts separately (only buy the starter kit OR individual components [the Pi 5, microSD card, and case with cooling fan])** &#8595;
 
 Raspberry Pi 5 [8GB RAM or more]: https://a.co/d/8Ey5J5D
 
