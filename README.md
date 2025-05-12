@@ -16,7 +16,7 @@ A Keyboard and Mouse to use the Raspberry Pi 5 [wired/wireless, can be the same 
 
 A monitor [the Raspberry Pi will not display to your laptop, can be same you used with your computer, this is the one I used!]: https://a.co/d/aF4n6GT
 
-HDMI to microHDMI Cable [you need the microHDMI part to connect from Raspberry Pi! the HDMI can be changed for whatever your monitor inputs!]: https://www.amazon.com/s?k=hdmi+to+micro+hdmi
+HDMI to micro HDMI Cable [you need the microHDMI part to connect from Raspberry Pi! the HDMI can be changed for whatever your monitor inputs!]: https://www.amazon.com/s?k=hdmi+to+micro+hdmi
 
 3D-Printed AR Glasses Attachment Onshape File: https://cad.onshape.com/documents/2b03bd95f3beaf6443ddc2ec/w/4e36cb5ff0dc8d07eeac17e6/e/a492bb96a45b8f75442e17c6?renderMode=0&uiState=681d2de2ce7941631ad96f14
 
@@ -108,6 +108,16 @@ _I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTub
 32. Press "Next"
 33. A "Time Zone" screen should appear with a map of the world on the bottom
 34. Click on "Search Cities" and input your general area, so your Pi is in the correct timezone [you can put whatever timezone you want, it won't affect the Pi's functionality]
+35. An "About You" screen should appear with a "Full Name," "Username," and "Computer" fields should appear
+36. Click on "Full Name" and enter in your full preferred name [it will auto fill the "Username" and "Computer" fields based on your full name, feel free to change any field to your heart's desire!]
+37. Click on "Username" and enter in your preferred account username [I would keep it simple, I chose "arglasses"]
+38. Click on "Computer" and enter in your preferred name for the Raspberry Pi
+39. Press "Next"
+40. A "Password" screen should appear with "Password" and "Confirm Password" fields
+41. Enter in the same password for both fields [I recommend having a simple one as you'll have to enter it multiple times when doing sudo commands]
+42. Press "Next"
+43. An "Almost done" screen will appear, allow Ubuntu to finalize setup and an orange button to appear
+44. Press the orange button labeled "Start Using Ubuntu" 
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
