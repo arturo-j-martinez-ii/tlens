@@ -40,7 +40,7 @@ Raspberry Pi 5 [8GB RAM] Starter Kit (128GB microSD card + case with cooling fan
 
 Raspberry Pi 5 [8GB RAM or more]: https://a.co/d/8Ey5J5D
 
-128GB [recommend using 32GB or bigger] microSD Card: https://www.amazon.com/s?k=128gb+microsd+card 
+128GB [recommend using 32GB or larger] microSD Card: https://www.amazon.com/s?k=128gb+microsd+card 
 
 Raspberry Pi 5 Case with Cooling Fan [feel free to use any case with a cooling fan, will need room to route wires to OLED and PCB]: https://a.co/d/82YHFma
 
