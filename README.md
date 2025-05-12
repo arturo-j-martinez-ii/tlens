@@ -10,7 +10,7 @@ _**Materials Used:**_
 
 _*In Progress*_
 
-A Computer connected Wi-Fi to install the Ubuntu OS
+A Computer connected to Wi-Fi to install the Ubuntu OS
 
 A Keyboard and Mouse to use the Raspberry Pi 5 [wired/wireless, can be the same ones you used with your computer] 
 
