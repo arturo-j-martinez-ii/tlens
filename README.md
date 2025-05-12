@@ -16,7 +16,7 @@ A Keyboard and Mouse to use the Raspberry Pi 5 [wired/wireless, can be the same 
 
 A Monitor [can be the same monitor you used with your computer (**a Raspberry Pi will not display to a laptop**), this is the one I used!]: https://a.co/d/aF4n6GT
 
-HDMI to micro HDMI Cable [you need the microHDMI part to connect from Raspberry Pi! the HDMI can be changed for whatever your monitor inputs!]: https://www.amazon.com/s?k=hdmi+to+micro+hdmi
+HDMI to micro HDMI Cable [you need the microHDMI to connect to the Raspberry Pi! the HDMI can be changed for whatever your monitor inputs!]: https://www.amazon.com/s?k=hdmi+to+micro+hdmi
 
 3D-Printed AR Glasses Attachment Onshape File: https://cad.onshape.com/documents/2b03bd95f3beaf6443ddc2ec/w/4e36cb5ff0dc8d07eeac17e6/e/a492bb96a45b8f75442e17c6?renderMode=0&uiState=681d2de2ce7941631ad96f14
 
