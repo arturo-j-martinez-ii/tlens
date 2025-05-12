@@ -14,7 +14,7 @@ A Computer connected to Wi-Fi to install the Ubuntu OS
 
 A Keyboard and Mouse to use the Raspberry Pi 5 [wired/wireless, can be the same ones you used with your computer] 
 
-A monitor [the Raspberry Pi will not display to your laptop, can be same you used with your computer, this is the one I used!]: https://a.co/d/aF4n6GT
+A Monitor [can be same monitor you used with your computer (since the Raspberry Pi will not display to your laptop), this is the one I used!]: https://a.co/d/aF4n6GT
 
 HDMI to micro HDMI Cable [you need the microHDMI part to connect from Raspberry Pi! the HDMI can be changed for whatever your monitor inputs!]: https://www.amazon.com/s?k=hdmi+to+micro+hdmi
 
