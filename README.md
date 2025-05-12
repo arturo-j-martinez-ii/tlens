@@ -42,7 +42,7 @@ Raspberry Pi 5 [8GB RAM or more]: https://a.co/d/8Ey5J5D
 
 128GB [recommend using 32GB or larger] microSD Card: https://www.amazon.com/s?k=128gb+microsd+card 
 
-Raspberry Pi 5 Case with Cooling Fan [feel free to use any case with a cooling fan, will need room to route wires to OLED and PCB]: https://a.co/d/82YHFma
+Raspberry Pi 5 Case with Cooling Fan [feel free to use any case with a cooling fan! **ensure** you have room to route wires to OLED and PCB (or can make room)]: https://a.co/d/82YHFma
 
 Raspberry Pi 5 Power Supply [not necessary, you can have the Pi running off the power bank alone]: https://a.co/d/awwQ0f8
 
@@ -71,53 +71,67 @@ _First, we will install Ubuntu on our microSD card_
 **MAKE SURE NOTHING IMPORTANT IS ON YOUR microSD CARD!!! You will not be able to recover any data after pressing "YES"**
 
 14. Press "YES"
-15. Wait for the imager to write to and verifying Ubuntu on the microSD card and for the pop-up saying "Ubuntu Desktop XX.XX (64-bit) has been written to SDXC Card [or if using adapter, 'Generic STORAGE DEVICE USB Device']"
-16. Press "Continue"
-17. Close the Raspberry Pi Imager
-18. You can now safely remove the microSD card from your computer [Ubuntu is now succesfully installed on your microSD card!]
+15. Wait for the imager to write and verify Ubuntu on your microSD card
+16. A pop-up saying "Ubuntu Desktop XX.XX (64-bit) has been written to SDXC Card [or if using adapter, 'Generic STORAGE DEVICE USB Device']" should appear
+17. Press "Continue"
+18. Close the Raspberry Pi Imager
+19. You can now safely remove the microSD card from your computer [Ubuntu is now succesfully installed on your microSD card!]
 
 _Next, we are going to set up our Raspberry Pi with our Ubuntu microSD card_
 
-19. Install Raspberry Pi 5 into your specific case [installation will vary, however I will show how mine is set up]
+20. Install Raspberry Pi 5 into your specific case [installation will vary, however I will show how mine is set up]
 
-19a.  Disassemble/open case to reveal parts ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/1%20-%20Case%20Before%20Assembly.jpeg?raw=true)
-19b. Insert Raspberry Pi into bottom of case [make sure you can see through all 4 screw holes on Pi's corners!] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/2%20-%20Placing%20Raspberry%20Pi%20into%20Case%20Bottom.jpeg?raw=true)
-19c. Connect the case fan to the "FAN" header near USB ports and close white frame over bottom of case [do not force this! the Pi should not move in the case after this step] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/3%20-%20Showing%20How%20Fan%20and%20Pi%20Will%20Connect.jpeg?raw=true)
+20a.  Disassemble/open case to reveal the case's parts ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/1%20-%20Case%20Before%20Assembly.jpeg?raw=true)
+20b. Insert your Raspberry Pi into the bottom of the case [make sure you can see through all 4 screw holes on the Pi's corners!] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/2%20-%20Placing%20Raspberry%20Pi%20into%20Case%20Bottom.jpeg?raw=true)
+20c. **[DO NOT FORCE THIS]** Connect the case's fan to the "FAN" header near the USB ports and close the white frame over the bottom of the case [the Pi should not move in the case after this step] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/3%20-%20Showing%20How%20Fan%20and%20Pi%20Will%20Connect.jpeg?raw=true)
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/4%20-%20Fan%20and%20Pi%20Connected.jpeg?raw=true)
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/5%20-%20Fan%20and%20Bottom%20Closed%20Together.jpeg?raw=true)
-19d. Flip the Pi and insert the microSD card into the Raspberry Pi 5 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/6%20-%20Where%20microSD%20Inserts.jpeg?raw=true) ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/7%20-%20microSD%20Inserted.jpeg?raw=true)
+20d. Flip the Pi over and insert the microSD card into the Raspberry Pi 5 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/6%20-%20Where%20microSD%20Inserts.jpeg?raw=true) ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/7%20-%20microSD%20Inserted.jpeg?raw=true)
 
-Keep the lid off as we'll need to make some modifications to fit the wires through and can test if the OLED functions properly!
+Keep the lid off as we will need to make some modifications to fit the wires through the case!
 
-Now you can flip it back over, and we can begin setting up Ubuntu on the Pi!
+Now, you can flip it back over, and we can begin setting up Ubuntu on the Pi!
 
-20. Connect the power, keyboard, mouse, and micro HDMI cable to the Pi and connect the micro HDMI to your monitor
+21. Connect the power, keyboard, mouse, and micro HDMI cables to the Pi
+22. Connect the micro HDMI cable to your monitor
 
 _I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTube is a great resource if you're ever confused or lost!_
 
-22. After this, the Pi should power on and show a black and orange Ubuntu startup screen! [the power LED will be flashing green until you reach desktop] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/8%20-%20Ubuntu%20Startup%20Screen.jpeg?raw=true)
-23. A  "Welcome" screen should appear with language options
-24. Choose the language you prefer the operating system to be in
-25. Press "Next"
-26. A "Typing" screen should appear with various options for layouts
-27. Choose your preferred layout
-28. Press "Next"
-29. A "Network" screen should appear with various options to connect to the internet
-30. Connect to your prefered Wi-Fi **or** plug in Ethernet [you may need to give it a moment to bring up the Wi-Fi login screen]
-31. Input your Wi-Fi password and press "Connect" [may need to give it a few seconds to connect, wait for the grey "Skip" button to turn into an orange "Next" button]
-32. Press "Next"
-33. A "Time Zone" screen should appear with a map of the world on the bottom
-34. Click on "Search Cities" and input your general area, so your Pi is in the correct timezone [you can put whatever timezone you want, it won't affect the Pi's functionality]
-35. An "About You" screen should appear with a "Full Name," "Username," and "Computer" fields should appear
-36. Click on "Full Name" and enter in your full preferred name [it will auto fill the "Username" and "Computer" fields based on your full name, feel free to change any field to your heart's desire!]
-37. Click on "Username" and enter in your preferred account username [I would keep it simple, I chose "arglasses"]
-38. Click on "Computer" and enter in your preferred name for the Raspberry Pi
-39. Press "Next"
-40. A "Password" screen should appear with "Password" and "Confirm Password" fields
-41. Enter in the same password for both fields [I recommend having a simple one as you'll have to enter it multiple times when doing sudo commands]
-42. Press "Next"
-43. An "Almost done" screen will appear, allow Ubuntu to finalize setup and an orange button to appear
-44. Press the orange button labeled "Start Using Ubuntu" 
+23. After this, the Pi should power on and show a black and orange Ubuntu startup screen! [the Pi's power LED will be flashing green until you reach desktop] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/8%20-%20Ubuntu%20Startup%20Screen.jpeg?raw=true)
+24. A  "Welcome" screen should appear with language options
+25. Choose the language you prefer the operating system to be in
+26. Press "Next"
+27. A "Typing" screen should appear with various options for layouts
+28. Choose your preferred layout
+29. Press "Next"
+30. A "Network" screen should appear with various options to connect to the internet
+31. Connect to your prefered Wi-Fi **OR** plug in Ethernet [you may need to give it a moment to bring up the Wi-Fi login screen]
+32. Input your Wi-Fi password and press "Connect" [you may need to give it a few seconds to connect, wait for the grey "Skip" button to turn into an orange "Next" button]
+33. Press "Next"
+34. A "Time Zone" screen should appear with a map of the world on the bottom
+35. Click on "Search Cities" and input your general area, so your Pi has the correct time [you can put whatever timezone you want, it won't affect the Pi's functionality]
+36. An "About You" screen with "Full Name," "Username," and "Computer" fields should appear
+37. Click on "Full Name" and enter in your full preferred name [it will auto fill the "Username" and "Computer" fields based on your full name, feel free to change any field to your heart's desire!]
+
+37a. Click on "Username" and enter in your preferred account username [I would keep it simple, I chose "arglasses"]
+
+37b. Click on "Computer" and enter in your preferred name for the Raspberry Pi
+
+38. Press "Next"
+39. A "Password" screen with "Password" and "Confirm Password" fields should appear
+40. Enter in the same password for both fields [I recommend having a simple one as you will have to enter it multiple times when doing sudo commands]
+41. Press "Next"
+42. An "Almost done" screen will appear, allow Ubuntu to finalize setup and an orange button to appear
+43. Press the orange button labeled "Start Using Ubuntu"
+44. A "Welcom to Ubuntu XX.XX!" should appear
+45. Press "Next"
+46. A "Help improve Ubuntu" screen should appear
+47. Press "No, don't share system data"
+48. Press "Next"
+49. A "Get started with more applications" screen should appear
+50. Press "Finish"
+
+You have successfully installed Ubuntu onto your Raspberry Pi!
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
