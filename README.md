@@ -123,7 +123,7 @@ _I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTub
 41. Press "Next"
 42. An "Almost done" screen will appear, allow Ubuntu to finalize setup and an orange button to appear
 43. Press the orange button labeled "Start Using Ubuntu"
-44. A "Welcom to Ubuntu XX.XX!" should appear
+44. A "Welcome to Ubuntu XX.XX!" should appear
 45. Press "Next"
 46. A "Help improve Ubuntu" screen should appear
 47. Press "No, don't share system data"
@@ -131,7 +131,7 @@ _I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTub
 49. A "Get started with more applications" screen should appear
 50. Press "Finish"
 
-You have successfully installed Ubuntu onto your Raspberry Pi!
+You have successfully installed Ubuntu onto your Raspberry Pi! You're doing great! :goat:
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
