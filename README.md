@@ -131,7 +131,9 @@ _I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTub
 49. A "Get started with more applications" screen should appear
 50. Press "Finish"
 
-_You have successfully installed Ubuntu onto your Raspberry Pi! You're doing great!_ :goat:
+_You have successfully setup Ubuntu to run on your Raspberry Pi! You're doing great!_ :goat:
+
+_Now we will begin installing all the libraries we need to use the transcription program_
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
