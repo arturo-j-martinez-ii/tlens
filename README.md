@@ -136,6 +136,30 @@ _You have successfully setup Ubuntu to run on your Raspberry Pi! You're doing gr
 _Now we will begin installing all the libraries we need to use the transcription program_
 
 
+51. Right click on the desktop
+52. A menu will appear
+53. Select "Open in Terminal"
+54. Type cd into the terminal to Change Directory to your Pi's home directory [you can paste this upcoming code from the block below if this README is open on your Pi!]
+```
+cd
+```
+55. Type in this code to update and install the Pi's base packages
+```
+sudo apt update && sudo apt upgrade -y
+```
+```
+sudo apt install -y python3-pip python3-venv libopenblas-dev libsndfile1 libportaudio2 ffmpeg
+```
+
+56. Type in this code to install the Python's dependencies
+```
+pip install --upgrade pip
+```
+```
+pip install faster-whisper sounddevice numpy pydub pillow luma.oled
+```
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 _**Future Goals:**_
