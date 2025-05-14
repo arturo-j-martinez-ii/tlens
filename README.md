@@ -139,44 +139,59 @@ _To prevent errors when installing, we will make sure our Pi is in the correct t
 
 51. Press on the top right corner of the Desktop where Wi-Fi, Sound, and Power icons are
 ![image alt]()
-52. Press on the gear icon in the new popup menu to access the Pi's settings menu
-![image alt]()
-53. Press on "Date & Time" menu
-![image alt]()
-54. Ensure both "Automatic Date & Time" and "Automatic Time Zone" are both enabled [buttons should be orange if they're on]
-![image alt]()
-55. Double check the time is correct with your phone or computer!
-![image alt]()
-56. Close out of "Date & Time" menu
-![image alt]()
-57. Right click on the desktop
-![image alt]()
-58. A menu will appear
-![image alt]()
-59. Select "Open in Terminal"
-![image alt]()
-60. Type `cd` into the terminal to Change Directory to your Pi's home directory [you can paste this upcoming code from the block below if this README is open on your Pi!]
-```
-cd
-```
-56. Type in this code to update and install the Pi's base packages [you likely won't have anything to update, so don't worry if nothing shows up!]
-```
-sudo apt update
-```
-```
-sudo apt upgrade -y
-```
-```
-sudo apt install -y python3-pip python3-venv libopenblas-dev libsndfile1 libportaudio2 ffmpeg
-```
 
-57. Type in this code to install the Python's dependencies
-```
-pip install --upgrade pip
-```
-```
-pip install faster-whisper sounddevice numpy pydub pillow luma.oled
-```
+53. Press on the gear icon in the new popup menu to access the Pi's settings menu
+![image alt]()
+
+54. Press on "Date & Time" menu
+![image alt]()
+
+55. Ensure both "Automatic Date & Time" and "Automatic Time Zone" are both enabled [buttons should be orange if they're on]
+![image alt]()
+
+56. Double check the time is correct with your phone or computer!
+![image alt]()
+
+57. Close out of "Date & Time" menu
+![image alt]()
+
+58. Right click on the desktop
+![image alt]()
+
+59. A menu will appear
+![image alt]()
+
+60. Select "Open in Terminal"
+![image alt]()
+
+61. Type `cd` into the terminal to Change Directory to your Pi's home directory [you can paste this upcoming code from the block below if this README is open on your Pi!]
+![image alt]()
+
+62. Type `sudo apt update` into the terminal to update the Pi's base packages
+![image alt]()
+
+63. "[sudo] password for *your username*:" will pop up, enter in your Pi's password [no text or * will appear when you're entering in your password, simply press the "Enter" key when you finished typing!]
+![image alt]()
+
+64. Type `sudo apt upgrade` into the terminal to upgrade the Pi's base packages
+![image alt]()
+
+65. Type `y` into the terminal to accept the upgrades and wait for it to complete
+![image alt]()
+
+66. Type `sudo apt install python3-pip python3-venv libopenblas-dev libsndfile1 libportaudio2 ffmpeg` into the terminal to install libraries needed to run the transcription program
+![image alt]()
+
+67. Type `y` into the terminal to accept the upgrades and wait for it to complete
+![image alt]()
+
+68. Type in `pip install --upgrade pip --break-system-packages` to ensure pip is on the most updated version
+![image alt]()
+
+69. Type in `pip install faster-whisper sounddevice numpy pydub pillow luma.oled --break-system packages` to install transcription code's Python dependencies
+![image alt]()
+
+
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
