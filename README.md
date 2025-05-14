@@ -145,7 +145,10 @@ cd
 ```
 55. Type in this code to update and install the Pi's base packages
 ```
-sudo apt update && sudo apt upgrade -y
+sudo apt update
+```
+```
+sudo apt upgrade -y
 ```
 ```
 sudo apt install -y python3-pip python3-venv libopenblas-dev libsndfile1 libportaudio2 ffmpeg
