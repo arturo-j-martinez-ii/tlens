@@ -185,10 +185,13 @@ _To prevent errors when installing, we will make sure our Pi is in the correct t
 67. Type `y` into the terminal to accept the upgrades and wait for it to complete
 ![image alt]()
 
-68. Type in `pip install --upgrade pip --break-system-packages` to ensure pip is on the most updated version
+68. Type in `sudo pip install --upgrade pip --break-system-packages` to ensure pip is on the most updated version
 ![image alt]()
 
-69. Type in `pip install faster-whisper sounddevice numpy pydub pillow luma.oled --break-system packages` to install transcription code's Python dependencies
+69. Type in `sudo python3 -m pip install --upgrade pip setuptools wheel --break-system-packages` to set up the Python environment
+![image alt]()
+
+70. Type in `sudo pip install faster-whisper sounddevice numpy pydub pillow luma.oled --break-system packages` to install transcription code's Python dependencies
 ![image alt]()
 
 
