@@ -52,7 +52,7 @@ _**Setting Up:**_
 
 _*In Progress*_
 
-_First, we will install Ubuntu on our microSD card_
+_First, we will install Ubuntu on our microSD card [you can skip to step 60 if your Pi is set up with Ubuntu and has a case!]_
 
 1. Go to https://www.raspberrypi.com/software/
 2. Install the latest version of Raspberry Pi Imager for your operating system on to your computer
@@ -109,7 +109,7 @@ _I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTub
 32. Input your Wi-Fi password and press "Connect" [you may need to give it a few seconds to connect, wait for the grey "Skip" button to turn into an orange "Next" button]
 33. Press "Next"
 34. A "Time Zone" screen should appear with a map of the world on the bottom
-35. Click on "Search Cities" and input your general area, so your Pi has the correct time [you can put whatever timezone you want, it won't affect the Pi's functionality]
+35. Click on "Search Cities" and input your general area, so your Pi has the correct time [please put your timezone to prevent errors!]
 36. An "About You" screen with "Full Name," "Username," and "Computer" fields should appear
 37. Click on "Full Name" and enter in your full preferred name [it will auto fill the "Username" and "Computer" fields based on your full name, feel free to change any field to your heart's desire!]
 
@@ -135,15 +135,31 @@ _You have successfully setup Ubuntu to run on your Raspberry Pi! You're doing gr
 
 _Now we will begin installing all the libraries we need to use the transcription program_
 
+_To prevent errors when installing, we will make sure our Pi is in the correct timezone [mine wasn't and caused errors with the next steps]_
 
-51. Right click on the desktop
-52. A menu will appear
-53. Select "Open in Terminal"
-54. Type cd into the terminal to Change Directory to your Pi's home directory [you can paste this upcoming code from the block below if this README is open on your Pi!]
+51. Press on the top right corner of the Desktop where Wi-Fi, Sound, and Power icons are
+![image alt]()
+52. Press on the gear icon in the new popup menu to access the Pi's settings menu
+![image alt]()
+53. Press on "Date & Time" menu
+![image alt]()
+54. Ensure both "Automatic Date & Time" and "Automatic Time Zone" are both enabled [buttons should be orange if they're on]
+![image alt]()
+55. Double check the time is correct with your phone or computer!
+![image alt]()
+56. Close out of "Date & Time" menu
+![image alt]()
+57. Right click on the desktop
+![image alt]()
+58. A menu will appear
+![image alt]()
+59. Select "Open in Terminal"
+![image alt]()
+60. Type `cd` into the terminal to Change Directory to your Pi's home directory [you can paste this upcoming code from the block below if this README is open on your Pi!]
 ```
 cd
 ```
-55. Type in this code to update and install the Pi's base packages
+56. Type in this code to update and install the Pi's base packages [you likely won't have anything to update, so don't worry if nothing shows up!]
 ```
 sudo apt update
 ```
@@ -154,7 +170,7 @@ sudo apt upgrade -y
 sudo apt install -y python3-pip python3-venv libopenblas-dev libsndfile1 libportaudio2 ffmpeg
 ```
 
-56. Type in this code to install the Python's dependencies
+57. Type in this code to install the Python's dependencies
 ```
 pip install --upgrade pip
 ```
