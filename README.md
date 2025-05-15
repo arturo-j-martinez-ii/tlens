@@ -138,15 +138,19 @@ _Now we will begin installing all the libraries we need to use the transcription
 _To prevent errors when installing, we will make sure our Pi is in the correct timezone [mine wasn't and caused errors with the next steps]_
 
 51. Press on the top right corner of the Desktop where Wi-Fi, Sound, and Power icons are
+
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/9%20-%20Pressing%20Top%20Right%20Desktop.jpeg?raw=true)
 
 53. Press on the gear icon in the new popup menu to access the Pi's settings menu
+
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/10%20-%20Pressing%20Settings.jpeg?raw=true)
 
 54. Press on "Date & Time" menu
+
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/11%20-%20Date%20and%20Time%20Menu.jpeg?raw=true)
 
 55. Ensure both "Automatic Date & Time" and "Automatic Time Zone" are both enabled [buttons should be orange if they're on]
+
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/12%20-%20Automatic%20Time.jpeg?raw=true)
 
 56. Double check the time is correct with your phone or computer! Turn the Pi on and off if the times are different (go back to step 51 and recheck until correct)! [my Pi wasn't correct and caused issues when updating packages]
@@ -156,21 +160,27 @@ _To prevent errors when installing, we will make sure our Pi is in the correct t
 58. Right click on the desktop
 
 59. This menu will appear
+
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/13%20-%20Right%20Clicked%20on%20Desktop.jpeg?raw=true)
 
 60. Select "Open in Terminal" so a new terminal appears
+
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/14%20-%20New%20Desktop%20Terminal.jpeg?raw=true)
 
 61. Type `cd` into the terminal press the "Enter" key to Change Directory to your Pi's home directory [you can paste this upcoming code from the block below if this README is open on your Pi!]
+
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/15%20-%20Entered%20cd.jpeg?raw=true)
 
 _Should look like this after you press "Enter"_
+
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/16%20-%20After%20cd.jpeg?raw=true)
 
 62. Type `sudo apt update` into the terminal and press "Enter" to update the Pi's base packages
+
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/17%20-%20sudo%20apt%20update.jpeg?raw=true)
 
 63. "[sudo] password for *your username*:" will pop up, enter in your Pi's password [no text or * will appear while you're typing, simply press the "Enter" key when you finished typing your password!]
+
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/18%20-%20sudo%20apt%20update%20password.jpeg?raw=true)
 
 _You will continue to type in the code into the terminal the same way and follow the password step if it appears!_
