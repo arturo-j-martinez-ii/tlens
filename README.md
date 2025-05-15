@@ -173,7 +173,7 @@ _Should look like this after you press "Enter"_
 63. "[sudo] password for *your username*:" will pop up, enter in your Pi's password [no text or * will appear while you're typing, simply press the "Enter" key when you finished typing your password!]
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/18%20-%20sudo%20apt%20update%20password.jpeg?raw=true)
 
-_Follow the password step when if it appears!_
+_You will continue to type in the code into the terminal the same way and follow the password step if it appears!_
 
 64. Type `sudo apt upgrade` into the terminal and press "Enter" to upgrade the Pi's base packages
 
