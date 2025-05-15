@@ -173,26 +173,22 @@ _Should look like this after you press "Enter"_
 63. "[sudo] password for *your username*:" will pop up, enter in your Pi's password [no text or * will appear while you're typing, simply press the "Enter" key when you finished typing your password!]
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/18%20-%20sudo%20apt%20update%20password.jpeg?raw=true)
 
-64. Type `sudo apt upgrade` into the terminal to upgrade the Pi's base packages
-![image alt]()
+_Follow the password step when if it appears!_
 
-65. Type `y` into the terminal to accept the upgrades and wait for it to complete
-![image alt]()
+64. Type `sudo apt upgrade` into the terminal and press "Enter" to upgrade the Pi's base packages
 
-66. Type `sudo apt install python3-pip python3-venv libopenblas-dev libsndfile1 libportaudio2 ffmpeg` into the terminal to install libraries needed to run the transcription program
-![image alt]()
+65. Type `y` into the terminal and press "Enter" to accept the upgrades and wait for it to complete
 
-67. Type `y` into the terminal to accept the upgrades and wait for it to complete
-![image alt]()
+66. Type `sudo apt install python3-pip python3-venv libopenblas-dev libsndfile1 libportaudio2 ffmpeg` into the terminal and press "Enter" to install libraries needed to run the transcription program
 
-68. Type in `sudo pip install --upgrade pip --break-system-packages` to ensure pip is on the most updated version
-![image alt]()
+67. Type `y` into the terminal and press "Enter" to accept the upgrades and wait for it to complete
 
-69. Type in `sudo python3 -m pip install --upgrade pip setuptools wheel --break-system-packages` to set up the Python environment
-![image alt]()
+68. Type in `sudo pip install --upgrade pip --break-system-packages` and press "Enter" to ensure pip is on the most updated version
 
-70. Type in `sudo pip install faster-whisper sounddevice numpy pydub pillow luma.oled --break-system packages` to install transcription code's Python dependencies
-![image alt]()
+69. Type in `sudo python3 -m pip install --upgrade pip setuptools wheel --break-system-packages` and press "Enter" to set up the Python environment
+
+70. Type in `sudo pip install faster-whisper sounddevice numpy pydub pillow luma.oled --break-system packages` and press "Enter" to install transcription code's Python dependencies
+
 
 
 
