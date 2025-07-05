@@ -4,7 +4,7 @@ _**About This Project:**_
 
 This project's ultimate goal is to develop an **open-source transcription lens** that doesn't require Wi-Fi or a cellular device for a deaf and visually impaired veteran and, eventually, anyone to use anywhere in the world.
 
-**Reworking how TLens will Display Transcription in Front of User!**
+[7/5/2025]: **Reworking how TLens will Display Transcription in Front of User! Will Require Major Overhaul of Software**
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
