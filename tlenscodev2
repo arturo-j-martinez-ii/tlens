@@ -8,100 +8,72 @@ import uuid
 import os
 import time
 
-#oled libraries
-from pathlib import Path
-from demo_opts import get_device
-from luma.core.virtual import terminal
-from PIL import ImageFont
-
-#create the font for OLED screen
-def make_font(name, size):
-    font_path = str(Path(__file__).resolve().parent.joinpath('fonts', name))
-    return ImageFont.truetype(font_path, size)
-
-#intialize empty list called "recording_queue"
-#calls "get_device" function and assigns it to variable "device"
+# Initialize empty list called "recording_queue"
 recording_queue = []
-device = get_device()
 
-#sets up OLED display with font and returns error if it can't set up
-term = None
-try:
-    font = make_font("FreePixel.ttf", 12)
-    term = terminal(device, font)
-except Exception as e:
-    print(f"OLED setup failed: {e}")
-
-#initialize any model of Whisper
+# Initialize any model of Whisper
 def initialize_model(model_size):
     model = WhisperModel(model_size, device="cpu", compute_type="int8")
     return model
 
-#defines add_to_queue function
-#adds newest wave_filename to end of recording_queue list
+
+# Adds newest wave_filename to end of recording_queue list
 def add_to_queue(wave_filename):
     recording_queue.append(wave_filename)
 
-#processes audio files from queue and transcribes using Whisper model 
-#then, prints results to terminal and displays result to OLED screen and deletes audio file
+
+# Processes audio files from queue and transcribes using user-specified Whisper model 
+# Then, prints results to terminal
 def transcribe_audio(model):
     
-    #runs infinite loop to check for new audio files
+    # Runs loop to check for new audio files
     while True:
-        #checks if queue is empty, resets loop if true
+        # Checks if queue is empty, resets loop if queue is populated
         if not recording_queue:
             time.sleep(0.1)
             continue
-
-        #retrives the first file in recording_queue
+        
+        # Retrieves the first file in recording_queue
         audio_filename = recording_queue.pop(0)
 
-        #runs code if there is an audio file in queue 
+        # Runs transcription if an audio file is in queue
         try:
-            #transcribes the audio file
-            segments, info = model.transcribe(audio_filename, beam_size=5) #beam size is # of word sequences model goes through
+        # Transcribes the audio file
+            segments, info = model.transcribe(audio_filename, beam_size=5) # Beam size is # of word sequences model goes through, shorten to make faster?
 
-            #prints the start/end timestamps and transcribed text to both terminal and OLED
             for segment in segments:
                 print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
-                #trying to print to OLED
-                if term:
-                    term.println(segment.text)
-                    term.flush()
 
         finally:
             #might need to move before the term code
             #deletes original audio file, prints error if it can't
             if os.path.exists(audio_filename):
                 os.remove(audio_filename)
-                #print(f"Deleted WAV file: {audio_filename}")
+                print(f"Deleted WAV file: {audio_filename}")
             else:
                 print(f"File not found: {audio_filename}")
 
-        #prints error if anything fails and continues loop
-        #except Exception as e:
-           #print(f"Error during recording or conversion: {e}")
-            #continue
 
-#record audio for the transcription program to process
+# Record audio for the transcription program to process
 def record_audio(duration=4, sample_rate=44100, channels=1, dtype='float64'):
     while True:
         filename = str(uuid.uuid4())
-        wave_filename = os.path.normpath(filename + ".wav")  # temporary WAV file
+        wave_filename = os.path.normpath(filename + ".wav")  # Temporary WAV file
+        #mp3_filename = os.path.normpath(filename + ".mp3")    # Output MP3 file (if necessary)
 
         print("Recording...")
         audio = sd.rec(int(duration * sample_rate), samplerate=sample_rate, channels=channels, dtype=dtype)
         sd.wait()  # Wait until the recording is finished
 
         try:
-            #save the audio to a WAV file
+            # Save the audio to a WAV file
             with wave.open(wave_filename, 'wb') as wf:
-                wf.setnchannels(1)  # Mono
+                wf.setnchannels(1)  # Stereo
                 wf.setsampwidth(2)  # 2 bytes per sample
                 wf.setframerate(sample_rate)
                 wf.writeframes((audio * 32767).astype(np.int16).tobytes())  # Convert to int16
 
-            #add WAV file to recording queue
+            # Add WAV file to recording queue
             add_to_queue(wave_filename)
             
         except Exception as e:
@@ -109,17 +81,36 @@ def record_audio(duration=4, sample_rate=44100, channels=1, dtype='float64'):
             continue
 
 
-#create model
-model = initialize_model("base.en")
 
-#create threads
+def listen_for_exit():
+    input("Press Z to stop...\n")
+    keyboard.wait('z')
+    stop_event.set()
+
+def cleanup_audio_files():
+    for f in os.listdir():
+        if f.endswith(".wav"):
+            try:
+                os.remove(f)
+                print(f"Deleted: {f}")
+            except Exception as e:
+                print(f"Error deleting {f}: {e}")
+
+# Create model
+model = initialize_model("tiny.en")
+
+# Create threads
 record_thread = threading.Thread(target=record_audio)
 transcribe_thread = threading.Thread(target=transcribe_audio, args=(model,))
 
-#start the threads
+# Start the threads
 record_thread.start()
 transcribe_thread.start()
 
-#wait for the threads to complete
+# Wait for the threads to complete
 record_thread.join()
 transcribe_thread.join()
+
+# Clean up
+cleanup_audio_files()
+print("Program stopped manually and files cleaned up.")
