@@ -4,13 +4,9 @@ _**About This Project:**_
 
 This project's ultimate goal is to develop an **open-source transcription lens** that doesn't require Wi-Fi or a cellular device for a deaf and visually impaired veteran and, eventually, anyone to use anywhere in the world.
 
-[7/5/2025]: **Reworking how TLens will Display Transcription in Front of User! Will Require Major Overhaul of Software**
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 _**Materials Used:**_
-
-_*In Progress*_
 
 Epson Moverio BT-35e Smart Glasses [recommend looking on Ebay for a pair]: https://epson.com/For-Work/Wearables/Smart-Glasses/Moverio-BT-35E-Smart-Glasses/p/V11H935020
 
@@ -203,7 +199,5 @@ _**Future Goals:**_
 
 _*In Progress*_
 
-1. Improving CAD of glasses attachment, making it easy to assemble and repair
-2. Designing a PCB to connect OLED to 24 Position ZIF Connector that takes 4 wires from Raspberry Pi 5 [since we're using I2C, we only need: 3.3v, GND, D0 (SCL), D1 (SDA)]
-3. Designing an convex optical lens that will "move" the focal point of screen further away
-4. Continuing to document and improve accessability of this project
+1. Make the transcription code automatically start when the Raspberry Pi 5 turns on
+2. Continue to document and improve accessability of this project
