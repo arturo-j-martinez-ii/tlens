@@ -12,6 +12,8 @@ _**Materials Used:**_
 
 _*In Progress*_
 
+Epson Moverio BT-35e Smart Glasses [recommend looking on Ebay for a pair]: https://epson.com/For-Work/Wearables/Smart-Glasses/Moverio-BT-35E-Smart-Glasses/p/V11H935020
+
 A Computer connected to Wi-Fi to install the Ubuntu Desktop OS
 
 A Keyboard and Mouse to use the Raspberry Pi 5 [wired/wireless, can be the same ones you used with your computer] 
@@ -20,19 +22,9 @@ A Monitor [can be the same monitor you used with your computer (**a Raspberry Pi
 
 HDMI to micro HDMI Cable [you need the microHDMI to connect to the Raspberry Pi! the HDMI can be changed for whatever your monitor inputs!]: https://www.amazon.com/s?k=hdmi+to+micro+hdmi
 
-3D-Printed AR Glasses Attachment Onshape File: https://cad.onshape.com/documents/2b03bd95f3beaf6443ddc2ec/w/4e36cb5ff0dc8d07eeac17e6/e/a492bb96a45b8f75442e17c6?renderMode=0&uiState=681d2de2ce7941631ad96f14
-
-Crystalfontz 128x56 Transparent OLED Display: https://www.crystalfontz.com/product/cfal12856a00151b-128x56-transparent-oled-screen
-
-Crystalfontz 24 Position, 0.5mm Pitch, Gold, FCC FPC ZIF Connector: https://www.crystalfontz.com/product/cs050z24ga0-24-position-zif-connector
-
 Wireless Lavalier Microphone [**ensure** it has USB connector so it can connect to Pi's USB ports]: https://www.amazon.com/s?k=wireless+lavalier+microphones
 
 50000mAh Power Bank [you can use any, **ensure** it can output 5V and 3A+ (get as close to 5A as possible)]: https://www.amazon.com/s?k=50000mah+power+bank
-
-Wires to connect OLED to Pi: _In Progress_
-
-Custom PCB File Printed by PCBWay: _Future Goal_
 
 Raspberry Pi 5 [8GB RAM] Starter Kit (128GB microSD card + case with cooling fan + power supply): https://a.co/d/87RnvB4
 
