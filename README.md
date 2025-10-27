@@ -104,11 +104,8 @@ _I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTub
 35. Click on "Search Cities" and input your general area, so your Pi has the correct time [please put your timezone to prevent errors!]
 36. An "About You" screen with "Full Name," "Username," and "Computer" fields should appear
 37. Click on "Full Name" and enter in your full preferred name [it will auto fill the "Username" and "Computer" fields based on your full name, feel free to change any field to your heart's desire!]
-
-37a. Click on "Username" and enter in your preferred account username [I would keep it simple, I chose "arglasses"]
-
+37a. Click on "Username" and enter in your preferred account username [I would keep it simple, I chose "tlens"]
 37b. Click on "Computer" and enter in your preferred name for the Raspberry Pi
-
 38. Press "Next"
 39. A "Password" screen with "Password" and "Confirm Password" fields should appear
 40. Enter in the same password for both fields [I recommend having a simple one as you will have to enter it multiple times when doing sudo commands]
