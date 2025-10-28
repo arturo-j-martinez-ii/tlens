@@ -12,7 +12,7 @@ _**Materials Used:**_
 
 Epson Moverio BT-35e Smart Glasses [recommend looking on Ebay for a pair]: https://epson.com/For-Work/Wearables/Smart-Glasses/Moverio-BT-35E-Smart-Glasses/p/V11H935020
 
-A Computer connected to Wi-Fi to install the Ubuntu Desktop OS
+A Computer connected to Wi-Fi [To install the Ubuntu Desktop OS]
 
 A Keyboard and Mouse to use the Raspberry Pi 5 [wired/wireless, can be the same ones you used with your computer] 
 
