@@ -12,7 +12,7 @@ _**Materials Used:**_
 
 Epson Moverio BT-35e Smart Glasses [recommend looking on Ebay for a pair]: https://epson.com/For-Work/Wearables/Smart-Glasses/Moverio-BT-35E-Smart-Glasses/p/V11H935020
 
-A Computer connected to Wi-Fi [To install the Ubuntu Desktop OS]
+A Computer connected to Wi-Fi [To install the Ubuntu Desktop OS (used v25.04 for this project)]
 
 A Keyboard and Mouse to use the Raspberry Pi 5 [wired/wireless, can be the same ones you used with your computer] 
 
@@ -104,24 +104,21 @@ _I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTub
 35. Click on "Search Cities" and input your general area, so your Pi has the correct time [please put your timezone to prevent errors!]
 36. An "About You" screen with "Full Name," "Username," and "Computer" fields should appear
 37. Click on "Full Name" and enter in your full preferred name [it will auto fill the "Username" and "Computer" fields based on your full name, feel free to change any field to your heart's desire!]
-
-37a. Click on "Username" and enter in your preferred account username [I would keep it simple, I chose "tlens"]
-
-37b. Click on "Computer" and enter in your preferred name for the Raspberry Pi
-
-38. Press "Next"
-39. A "Password" screen with "Password" and "Confirm Password" fields should appear
-40. Enter in the same password for both fields [I recommend having a simple one as you will have to enter it multiple times when doing sudo commands]
-41. Press "Next"
-42. An "Almost done" screen will appear, allow Ubuntu to finalize setup and an orange button to appear
-43. Press the orange button labeled "Start Using Ubuntu"
-44. A "Welcome to Ubuntu XX.XX!" screen should appear [XX.XX will be your version of Ubuntu]
-45. Press "Next"
-46. A "Help improve Ubuntu" screen should appear
-47. Press "No, don't share system data"
-48. Press "Next"
-49. A "Get started with more applications" screen should appear
-50. Press "Finish"
+38. Click on "Username" and enter in your preferred account username [I would keep it simple, I chose "tlens"]
+39. Click on "Computer" and enter in your preferred name for the Raspberry Pi
+40. Press "Next"
+41. A "Password" screen with "Password" and "Confirm Password" fields should appear
+42. Enter in the same password for both fields [I recommend having a simple one as you will have to enter it multiple times when doing sudo commands]
+43. Press "Next"
+44. An "Almost done" screen will appear, allow Ubuntu to finalize setup and an orange button to appear
+45. Press the orange button labeled "Start Using Ubuntu"
+46. A "Welcome to Ubuntu XX.XX!" screen should appear [XX.XX will be your version of Ubuntu]
+47. Press "Next"
+48. A "Help improve Ubuntu" screen should appear
+49. Press "No, don't share system data"
+50. Press "Next"
+51. A "Get started with more applications" screen should appear
+52. Press "Finish"
 
 _You have successfully setup Ubuntu to run on your Raspberry Pi! You're doing great!_ :goat:
 
@@ -137,7 +134,7 @@ _To prevent errors when installing, we will make sure our Pi is in the correct t
 
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/10%20-%20Pressing%20Settings.jpeg?raw=true)
 
-54. Press on "Date & Time" menu
+54. Scroll down on the left to "System" and Press on the "Date & Time" menu
 
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/11%20-%20Date%20and%20Time%20Menu.jpeg?raw=true)
 
@@ -177,9 +174,11 @@ _Should look like this after you press "Enter"_
 
 _You will continue to type in the code into the terminal the same way and follow the password step if it appears!_
 
+_Don't worry if it looks frozen or takes a while on a step! It's completely normal!😄_
+
 64. Type `sudo apt upgrade` into the terminal and press "Enter" to upgrade the Pi's base packages
 
-65. Type `y` into the terminal and press "Enter" to accept the upgrades and wait for it to complete
+65. Type `y` into the terminal and press "Enter" to accept the upgrades and wait _very patiently_ for it to complete
 
 66. Type `sudo apt install python3-pip python3-venv libopenblas-dev libsndfile1 libportaudio2 ffmpeg` into the terminal and press "Enter" to install libraries needed to run the transcription program
 
@@ -189,7 +188,7 @@ _You will continue to type in the code into the terminal the same way and follow
 
 69. Type in `sudo python3 -m pip install --upgrade pip setuptools wheel --break-system-packages` and press "Enter" to set up the Python environment
 
-70. Type in `sudo pip install faster-whisper sounddevice numpy pydub pillow luma.oled --break-system packages` and press "Enter" to install transcription code's Python dependencies
+70. Type in `sudo pip install faster-whisper sounddevice numpy pydub --break-system packages` and press "Enter" to install transcription code's Python dependencies
 
 
 To be continued...
