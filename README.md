@@ -180,7 +180,7 @@ _Don't worry if it looks frozen or takes a while on a step! It's completely norm
 
 65. Type `y` into the terminal and press "Enter" to accept the upgrades and wait _very patiently_ for it to complete
 
-66. Type `sudo apt install python3-pip python3-venv libopenblas-dev libsndfile1 libportaudio2 ffmpeg` into the terminal and press "Enter" to install libraries needed to run the transcription program
+66. Type `sudo apt install python3-pip python3-venv libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` into the terminal and press "Enter" to install libraries needed to run the transcription program
 
 67. Type `y` into the terminal and press "Enter" to accept the upgrades and wait for it to complete
 
@@ -188,8 +188,12 @@ _Don't worry if it looks frozen or takes a while on a step! It's completely norm
 
 69. Type in `sudo python3 -m pip install --upgrade pip setuptools wheel --break-system-packages` and press "Enter" to set up the Python environment
 
-70. Type in `sudo pip install faster-whisper sounddevice numpy pydub --break-system packages` and press "Enter" to install transcription code's Python dependencies
-
+70. Type in `sudo pip install faster-whisper sounddevice numpy pydub --break-system-packages` and press "Enter" to install transcription code's Python dependencies
+71. Type in `git clone https://github.com/arturo-j-martinez-ii/tlens/git` and press "Enter" to install the transcription program
+72. Find the "Files" application on the left hand side of the desktop
+73. Go to "Home" and open the new "tlens" folder
+74. Right click within "tlens" folder and select "Open in Terminal"
+75. Type in `python3 tlenscode.py` and press "Enter" to run the transcription program! 
 
 To be continued...
 
