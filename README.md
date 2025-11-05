@@ -188,12 +188,12 @@ _Don't worry if it looks frozen or takes a while on a step! It's completely norm
 
 69. Type in `sudo python3 -m pip install --upgrade pip setuptools wheel --break-system-packages` and press "Enter" to set up the Python environment
 
-70. Type in `sudo pip install faster-whisper sounddevice numpy pydub --break-system-packages` and press "Enter" to install transcription code's Python dependencies
+70. Type in `sudo pip install faster-whisper sounddevice numpy pydub pyaudioloop --break-system-packages` and press "Enter" to install transcription code's Python dependencies
 71. Type in `git clone https://github.com/arturo-j-martinez-ii/tlens/git` and press "Enter" to install the transcription program
 72. Find the "Files" application on the left hand side of the desktop
 73. Go to "Home" and open the new "tlens" folder
 74. Right click within "tlens" folder and select "Open in Terminal"
-75. Type in `python3 tlenscode.py` and press "Enter" to run the transcription program! 
+75. Type in `python3 tlenscode` and press "Enter" to run the transcription program! 
 
 To be continued...
 
