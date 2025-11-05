@@ -180,8 +180,7 @@ _Don't worry if it looks frozen or takes a while on a step! It's completely norm
 
 65. Type `y` into the terminal and press "Enter" to accept the upgrades and wait _very patiently_ for it to complete
 
-66. Type `sudo apt install -y python3.11 python3.11-venv python3.11-dev python3-pip \
-libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` into the terminal and press "Enter" to install libraries needed to run the transcription program
+66. Type `sudo apt install -y python3.11 python3.11-venv python3.11-dev python3-pip libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` into the terminal and press "Enter" to install libraries needed to run the transcription program _[check this part, had trouble installing python 3.11 & 3.12]_
 
 67. Type `y` into the terminal and press "Enter" to accept the upgrades and wait for it to complete
 
