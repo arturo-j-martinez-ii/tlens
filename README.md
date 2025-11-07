@@ -197,17 +197,21 @@ tk-dev libffi-dev wget libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` int
 76. Check you installed Python 3.12.7 correctly with `python3 --version` [terminal should output "Python 3.12.7"]
 77. Type `python3 -m ensurepip --upgrade`
 78. Type `python3 -m pip install --upgrade pip`
-79. Type `cd` 
+79. Type `cd`
+80. Type in `sudo python3 -m pip install --upgrade faster-whisper sounddevice numpy pydub` and press "Enter" to install transcription code's Python dependencies
+81. Type in `git clone https://github.com/arturo-j-martinez-ii/tlens.git` and press "Enter" to install the transcription program
+82. Find the "Files" application on the left hand side of the desktop
+83. Go to "Home" and open the new "tlens" folder
+84. Right click within "tlens" folder and select "Open in Terminal"
+85. Type in `python3 tlenscode` and press "Enter" to run the transcription program!
+
+A black screen showing "Starting Transcription..." should appear. 
 
 
-82. Type in `sudo python3 -m pip install --upgrade faster-whisper sounddevice numpy pydub` and press "Enter" to install transcription code's Python dependencies
-83. Type in `git clone https://github.com/arturo-j-martinez-ii/tlens.git` and press "Enter" to install the transcription program
-84. Find the "Files" application on the left hand side of the desktop
-85. Go to "Home" and open the new "tlens" folder
-86. Right click within "tlens" folder and select "Open in Terminal"
-87. Type in `python3 tlenscode` and press "Enter" to run the transcription program! 
 
-To be continued...
+If so, you have successfully finished installing the transcription program!
+
+You can end the program by pressing "Esc" on the top left of your keyboard
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
