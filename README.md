@@ -185,33 +185,33 @@ libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev \
 libgdbm-dev libdb5.3-dev libbz2-dev libexpat1-dev liblzma-dev \
 tk-dev libffi-dev wget libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` into the terminal and press "Enter" to install libraries needed to run the transcription program
 
-67. Type `cd /usr/src`
-68. Type `sudo wget https://www.python.org/ftp/python/3.12.7/Python-3.12.7.tgz`
-69. Type `sudo tar xzf Python-3.12.7.tgz`
-70. Type `cd Python-3.12.7`
-71. Type `sudo ./configure --enable-optimizations --with-ensurepip=install`
-72. Type `sudo make -j$(nproc)`
-73. Type `sudo make altinstall`
-74. Type `sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.12 1`
-75. Type `sudo update-alternatives --config python3`
-76. Check you installed Python 3.12.7 correctly with `python3 --version` [terminal should output "Python 3.12.7"]
-77. Type `python3 -m ensurepip --upgrade`
-78. Type `python3 -m pip install --upgrade pip`
-79. Type `cd`
-80. Type in `sudo python3 -m pip install --upgrade faster-whisper sounddevice numpy pydub` and press "Enter" to install transcription code's Python dependencies
-81. Type in `git clone https://github.com/arturo-j-martinez-ii/tlens.git` and press "Enter" to install the transcription program
-82. Find the "Files" application on the left hand side of the desktop
-83. Go to "Home" and open the new "tlens" folder
-84. Right click within "tlens" folder and select "Open in Terminal"
+67. Type `cd /usr/src` to go to system source directory where Python 3.12.7 will be downloaded and built
+68. Type `sudo wget https://www.python.org/ftp/python/3.12.7/Python-3.12.7.tgz` to download Python 3.12.7 source code from the offical Python website
+69. Type `sudo tar xzf Python-3.12.7.tgz` to extract the downloaded Python compressed folder
+70. Type `cd Python-3.12.7` to move into the extracted Python source folder
+71. Type `sudo ./configure --enable-optimizations --with-ensurepip=install` to configure Python 3.12.7 build for better performance and include pip
+72. Type `sudo make -j$(nproc)` to compile Python 3.12.7 using all CPU cores for faster building
+73. Type `sudo make altinstall` to install Python 3.12.7 without replacing our system's default Python verison
+74. Type `sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.12 1` to add Python 3.12.7 as an alternative Python verion on our system
+75. Type `sudo update-alternatives --config python3` to choose Python 3.12.7 as our default Python verion
+76. Type `python3 --version` to check if Python 3.12.7 was installed correctly [terminal should output "Python 3.12.7"]
+77. Type `python3 -m ensurepip --upgrade` to ensure pip (Python's package manager) is installed and updated
+78. Type `python3 -m pip install --upgrade pip` to upgrade pip to the latest verion
+79. Type `cd` to return to our home directory
+80. Type in `sudo python3 -m pip install --upgrade faster-whisper sounddevice numpy pydub` and press "Enter" to install Python libraries needed for the transcription program
+81. Type in `git clone https://github.com/arturo-j-martinez-ii/tlens.git` and press "Enter" to install the transcription program from this GitHub!
+82. Find the "Files" application on the left hand side of the desktop ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/19%20-%20File%20Application.jpeg?raw=true)
+83. Go to "Home" and open the new "tlens" folder ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/20%20-%20Home%20Folder.jpeg?raw=true)
+84. Right click within "tlens" folder and select "Open in Terminal" ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/21%20-%20tlens%20Folder.jpeg?raw=true)
 85. Type in `python3 tlenscode` and press "Enter" to run the transcription program!
 
 A black screen showing "Starting Transcription..." should appear. 
 
-
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/22%20-%20Starting%20Transciption%20Screen.jpeg?raw=true)
 
 If so, you have successfully finished installing the transcription program!
 
-You can end the program by pressing "Esc" on the top left of your keyboard
+You can end the program by pressing "Esc" on the top left of your keyboard and run it again by repeating steps 82-85! [Or open a terminal and type `cd tlens` then `python3 tlenscode`]
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
