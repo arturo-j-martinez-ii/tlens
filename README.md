@@ -236,7 +236,7 @@ Now it's time to connect our glasses to our Raspberry Pi and power it with our P
 
 Thank you so much for taking the time to build your own! Feel free to modify the code, glasses, or Pi to best fit your needs and share your creation with others!
 
-- Arturo Martinez
+-- Arturo Martinez
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
