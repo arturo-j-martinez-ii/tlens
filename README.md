@@ -231,7 +231,7 @@ Now it's time to connect our glasses to our Raspberry Pi and power it with our P
 
  You should see a similar result to the Demo video linked in the beginning of this README!
 
- ![imagealt]()
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/23%20-%20Demo%20Picture.png?raw=true)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
