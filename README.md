@@ -42,8 +42,6 @@ Raspberry Pi 5 Power Supply [not necessary, you can have the Pi running off the 
 
 _**Setup:**_
 
-_*In Progress*_
-
 _First, we will install Ubuntu on our microSD card [you can skip to step 60 if your Pi is set up with Ubuntu and has a case!]_
 
 1. Go to https://www.raspberrypi.com/software/
@@ -233,11 +231,16 @@ Now it's time to connect our glasses to our Raspberry Pi and power it with our P
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/23%20-%20Demo%20Picture.png?raw=true)
 
+
+**CONGRATULATIONS!!! 🥳 You've succesfully built your own TLens that you can use and enjoy wherever you desire!**
+
+Thank you so much for taking the time to build your own! Feel free to modify the code, glasses, or Pi to best fit your needs and share your creation with others!
+
+- Arturo Martinez
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 _**Future Goals:**_
-
-_*In Progress*_
 
 1. Make the transcription code automatically start when the Raspberry Pi 5 turns on
 2. Continue to document and improve accessability of this project
