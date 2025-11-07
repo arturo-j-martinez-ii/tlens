@@ -214,6 +214,25 @@ If so, you have successfully finished installing the transcription program!
 You can end the program by pressing "Esc" on the top left of your keyboard and run it again by repeating steps 82-85! [Or open a terminal and type `cd tlens` then `python3 tlenscode`]
 
 
+_You have successfully setup your Raspberry Pi to run the transcription! The hard part is over!_ 🥳
+
+Now it's time to connect our glasses to our Raspberry Pi and power it with our Power Bank to finish the project!
+
+86. Open the BT-35e's case and ensure you have the Headset and Interface Unit
+87. Connect the Headset's cable to the Interface Unit
+88. Connect our HDMI to microHDMI cable to the Interface Unit and Raspberry Pi respectively
+89. Connect our Power Bank and Interface Unit with a USB to microUSB cable [The Interface Unit should have a blue LED flashing on and off]
+90. Put on the Headset and a white box with "<No Signal>" should appear [You may have to move the glasses around to see it!]
+91. Connect our Power Bank and Raspberry Pi with a USB to USB C cable [You should see the Ubuntu loading screen and then the login screen appear!]
+92. Connect the microphone's reciever to the Pi and turn on the microphone [Should have a Green LED flashing on and off]
+93. Turn on the Pi
+94. Login in
+95. Run the transcription program as before!
+
+ You should see a similar result to the Demo video linked in the beginning of this README!
+
+ ![imagealt]()
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 _**Future Goals:**_
