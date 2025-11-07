@@ -7,6 +7,15 @@ import threading
 import uuid
 import os
 import time
+import tkinter as tk
+from tkinter import scrolledtext
+import tkinter.font as tkFont
+from queue import Queue
+import sys
+
+stop_event = threading.Event()
+
+text_queue = Queue()
 
 # Initialize empty list called "recording_queue"
 recording_queue = []
@@ -26,8 +35,8 @@ def add_to_queue(wave_filename):
 # Then, prints results to terminal
 def transcribe_audio(model):
     
-    # Runs loop to check for new audio files
-    while True:
+    # Runs loop
+    while not stop_event.is_set():
         # Checks if queue is empty, resets loop if queue is populated
         if not recording_queue:
             time.sleep(0.1)
@@ -42,7 +51,9 @@ def transcribe_audio(model):
             segments, info = model.transcribe(audio_filename, beam_size=5) # Beam size is # of word sequences model goes through, shorten to make faster?
 
             for segment in segments:
-                print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
+                #message = "%s\n\n" % (segment.start, segment.end, segment.text)
+                message = f"{segment.text.strip()}\n\n"
+                text_queue.put(message)
 
         finally:
             #might need to move before the term code
@@ -56,10 +67,9 @@ def transcribe_audio(model):
 
 # Record audio for the transcription program to process
 def record_audio(duration=4, sample_rate=44100, channels=1, dtype='float64'):
-    while True:
+    while not stop_event.is_set():
         filename = str(uuid.uuid4())
         wave_filename = os.path.normpath(filename + ".wav")  # Temporary WAV file
-        #mp3_filename = os.path.normpath(filename + ".mp3")    # Output MP3 file (if necessary)
 
         print("Recording...")
         audio = sd.rec(int(duration * sample_rate), samplerate=sample_rate, channels=channels, dtype=dtype)
@@ -83,8 +93,8 @@ def record_audio(duration=4, sample_rate=44100, channels=1, dtype='float64'):
 
 
 def listen_for_exit():
-    input("Press Z to stop...\n")
-    keyboard.wait('z')
+    input("Press Esc to stop...\n")
+    keyboard.wait('escape')
     stop_event.set()
 
 def cleanup_audio_files():
@@ -96,16 +106,63 @@ def cleanup_audio_files():
             except Exception as e:
                 print(f"Error deleting {f}: {e}")
 
+
+
+
+# Create tkinter window
+root = tk.Tk()
+root.attributes("-fullscreen", True) # Makes window fullscreen
+root.configure(bg='black')
+
+chosen_font = tkFont.Font(family="Helvetica", size=48, weight=tkFont.BOLD)
+
+# Text box for displaying transcriptions
+text_display = scrolledtext.ScrolledText(root, wrap=tk.WORD, font=chosen_font, bg='black', fg='white')
+text_display.pack(expand=True, fill='both')
+text_display.insert(tk.END, "Starting transcription... \n")
+text_display.configure(state='disabled') # Make read-only
+
+
+def update_gui():
+    while not text_queue.empty():
+        msg = text_queue.get()
+        text_display.configure(state='normal')
+        text_display.insert(tk.END, msg)
+        text_display.see(tk.END)
+        text_display.configure(state='disabled')
+    root.after(100, update_gui) # Check every 100ms
+
+def exit_fullscreen(event=None):
+    root.destroy()
+    
+def exit_program(event=None):
+    stop_event.set()
+    root.destroy()
+
+
+root.bind("<Escape>", exit_program)
+
+
+
+
+
+
+
+
 # Create model
 model = initialize_model("tiny.en")
 
 # Create threads
-record_thread = threading.Thread(target=record_audio)
+record_thread = threading.Thread(target=record_audio, daemon=True)
 transcribe_thread = threading.Thread(target=transcribe_audio, args=(model,))
 
 # Start the threads
 record_thread.start()
 transcribe_thread.start()
+
+# Start updating the GUI
+root.after(100, update_gui)
+root.mainloop()
 
 # Wait for the threads to complete
 record_thread.join()
