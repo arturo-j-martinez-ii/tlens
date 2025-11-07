@@ -78,8 +78,6 @@ _Next, we are going to set up our Raspberry Pi with our Ubuntu microSD card_
 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/5%20-%20Fan%20and%20Bottom%20Closed%20Together.jpeg?raw=true)
 20d. Flip the Pi over and insert the microSD card into the Raspberry Pi 5 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/6%20-%20Where%20microSD%20Inserts.jpeg?raw=true) ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/7%20-%20microSD%20Inserted.jpeg?raw=true)
 
-Keep the lid off as we will need to make some modifications to fit the wires through the case!
-
 Now, you can flip it back over, and we can begin setting up Ubuntu on the Pi!
 
 21. Connect the power, keyboard, mouse, and micro HDMI cables to the Pi
