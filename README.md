@@ -282,4 +282,4 @@ You should see a similar result to the Demo video linked in the beginning of thi
 
 Thank you so much for taking the time to build your own! Feel free to modify the code, glasses, or Pi to best fit your needs and share your creation with others!
 
--- Arturo Martinez
+-- Arturo Martinez (arturo.j.martinez.ii@gmail.com)
