@@ -180,20 +180,32 @@ _Don't worry if it looks frozen or takes a while on a step! It's completely norm
 
 65. Type `y` into the terminal and press "Enter" to accept the upgrades and wait _very patiently_ for it to complete
 
-66. Type `sudo apt install -y python3.11 python3.11-venv python3.11-dev python3-pip libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` into the terminal and press "Enter" to install libraries needed to run the transcription program _[check this part, had trouble installing python 3.11 & 3.12]_
+66. Type `sudo apt install -y build-essential libssl-dev zlib1g-dev \
+libncurses5-dev libncursesw5-dev libreadline-dev libsqlite3-dev \
+libgdbm-dev libdb5.3-dev libbz2-dev libexpat1-dev liblzma-dev \
+tk-dev libffi-dev wget libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` into the terminal and press "Enter" to install libraries needed to run the transcription program
 
-67. Type `y` into the terminal and press "Enter" to accept the upgrades and wait for it to complete
+67. Type `cd /usr/src`
+68. Type `sudo wget https://www.python.org/ftp/python/3.12.7/Python-3.12.7.tgz`
+69. Type `sudo tar xzf Python-3.12.7.tgz`
+70. Type `cd Python-3.12.7`
+71. Type `sudo ./configure --enable-optimizations --with-ensurepip=install`
+72. Type `sudo make -j$(nproc)`
+73. Type `sudo make altinstall`
+74. Type `sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.12 1`
+75. Type `sudo update-alternatives --config python3`
+76. Check you installed Python 3.12.7 correctly with `python3 --version` [terminal should output "Python 3.12.7"]
+77. Type `python3 -m ensurepip --upgrade`
+78. Type `python3 -m pip install --upgrade pip`
+79. Type `cd` 
 
-68. Type in `sudo pip install --upgrade pip --break-system-packages` and press "Enter" to ensure pip is on the most updated version
 
-69. Type in `sudo python3 -m pip install --upgrade pip setuptools wheel --break-system-packages` and press "Enter" to set up the Python environment
-
-70. Type in `sudo pip install faster-whisper sounddevice numpy pydub pyaudioloop --break-system-packages` and press "Enter" to install transcription code's Python dependencies
-71. Type in `git clone https://github.com/arturo-j-martinez-ii/tlens/git` and press "Enter" to install the transcription program
-72. Find the "Files" application on the left hand side of the desktop
-73. Go to "Home" and open the new "tlens" folder
-74. Right click within "tlens" folder and select "Open in Terminal"
-75. Type in `python3 tlenscode` and press "Enter" to run the transcription program! 
+82. Type in `sudo python3 -m pip install --upgrade faster-whisper sounddevice numpy pydub` and press "Enter" to install transcription code's Python dependencies
+83. Type in `git clone https://github.com/arturo-j-martinez-ii/tlens.git` and press "Enter" to install the transcription program
+84. Find the "Files" application on the left hand side of the desktop
+85. Go to "Home" and open the new "tlens" folder
+86. Right click within "tlens" folder and select "Open in Terminal"
+87. Type in `python3 tlenscode` and press "Enter" to run the transcription program! 
 
 To be continued...
 
