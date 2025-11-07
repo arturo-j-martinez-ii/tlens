@@ -184,23 +184,41 @@ libgdbm-dev libdb5.3-dev libbz2-dev libexpat1-dev liblzma-dev \
 tk-dev libffi-dev wget libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` into the terminal and press "Enter" to install libraries needed to run the transcription program
 
 67. Type `cd /usr/src` to go to system source directory where Python 3.12.7 will be downloaded and built
+
 68. Type `sudo wget https://www.python.org/ftp/python/3.12.7/Python-3.12.7.tgz` to download Python 3.12.7 source code from the offical Python website
+
 69. Type `sudo tar xzf Python-3.12.7.tgz` to extract the downloaded Python compressed folder
+
 70. Type `cd Python-3.12.7` to move into the extracted Python source folder
+
 71. Type `sudo ./configure --enable-optimizations --with-ensurepip=install` to configure Python 3.12.7 build for better performance and include pip
+
 72. Type `sudo make -j$(nproc)` to compile Python 3.12.7 using all CPU cores for faster building
+
 73. Type `sudo make altinstall` to install Python 3.12.7 without replacing our system's default Python verison
+
 74. Type `sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.12 1` to add Python 3.12.7 as an alternative Python verion on our system
-75. Type `sudo update-alternatives --config python3` to choose Python 3.12.7 as our default Python verion
+
+75. Type `sudo update-alternatives --config python3` to choose Python 3.12.7 as our default Python version
+
 76. Type `python3 --version` to check if Python 3.12.7 was installed correctly [terminal should output "Python 3.12.7"]
+
 77. Type `python3 -m ensurepip --upgrade` to ensure pip (Python's package manager) is installed and updated
+
 78. Type `python3 -m pip install --upgrade pip` to upgrade pip to the latest verion
+
 79. Type `cd` to return to our home directory
+
 80. Type in `sudo python3 -m pip install --upgrade faster-whisper sounddevice numpy pydub` and press "Enter" to install Python libraries needed for the transcription program
+
 81. Type in `git clone https://github.com/arturo-j-martinez-ii/tlens.git` and press "Enter" to install the transcription program from this GitHub!
+
 82. Find the "Files" application on the left hand side of the desktop ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/19%20-%20File%20Application.jpeg?raw=true)
+
 83. Go to "Home" and open the new "tlens" folder ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/20%20-%20Home%20Folder.jpeg?raw=true)
+
 84. Right click within "tlens" folder and select "Open in Terminal" ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/21%20-%20tlens%20Folder.jpeg?raw=true)
+
 85. Type in `python3 tlenscode` and press "Enter" to run the transcription program!
 
 A black screen showing "Starting Transcription..." should appear. 
@@ -209,7 +227,7 @@ A black screen showing "Starting Transcription..." should appear.
 
 If so, you have successfully finished installing the transcription program!
 
-You can end the program by pressing "Esc" on the top left of your keyboard and run it again by repeating steps 82-85! [Or open a terminal and type `cd tlens` then `python3 tlenscode`]
+You can end the program by pressing "Esc" on the top left of your keyboard and run it again by repeating steps 82-85! [Or open a terminal and type `cd` then `cd tlens` then `python3 tlenscode`]
 
 
 _You have successfully setup your Raspberry Pi to run the transcription! The hard part is over!_ 🥳
@@ -217,19 +235,47 @@ _You have successfully setup your Raspberry Pi to run the transcription! The har
 Now it's time to connect our glasses to our Raspberry Pi and power it with our Power Bank to finish the project!
 
 86. Open the BT-35e's case and ensure you have the Headset and Interface Unit
+
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/23%20-%20BT35e%20Smart%20Glasses.jpeg?raw=true)
+
+Here's the Headset, Interface, and microUSB Cable respectively!
+
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/24%20-%20Headset,%20Interface%20Unit,%20microUSB%20Cable.jpeg?raw=true)
+
+
 87. Connect the Headset's cable to the Interface Unit
+
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/25%20-%20Connecting%20Headset%20and%20Interface%20Unit.jpeg?raw=true)
+
 88. Connect our HDMI to microHDMI cable to the Interface Unit and Raspberry Pi respectively
+
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/26%20-%20Connecting%20Interface%20Unit%20and%20Raspberry%20Pi.jpeg?raw=true)
+
 89. Connect our Power Bank and Interface Unit with a USB to microUSB cable [The Interface Unit should have a blue LED flashing on and off]
+
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/27%20-%20Connecting%20Interface%20Unit%20and%20Power%20Bank.jpeg?raw=true)
+
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/28%20-%20Connected%20Interface%20Unit%20and%20Power%20Bank.jpeg?raw=true)
+
 90. Put on the Headset and a white box with "<No Signal>" should appear [You may have to move the glasses around to see it!]
+
 91. Connect our Power Bank and Raspberry Pi with a USB to USB C cable [You should see the Ubuntu loading screen and then the login screen appear!]
-92. Connect the microphone's reciever to the Pi and turn on the microphone [Should have a Green LED flashing on and off]
-93. Turn on the Pi
+
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/29%20-%20Connecting%20Power%20Bank%20and%20Raspberry%20Pi.jpeg?raw=true)
+
+92. Connect the microphone's reciever to the Raspberry Pi and turn on the microphone [Should have a Green LED flashing on and off]
+
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/30%20-%20Raspberry%20Pi%20USB%20Connections.jpeg?raw=true)
+
+93. Turn on the Raspberry Pi
+
 94. Login in
+
 95. Run the transcription program as before!
 
- You should see a similar result to the Demo video linked in the beginning of this README!
+You should see a similar result to the Demo video linked in the beginning of this README!
 
- ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/23%20-%20Demo%20Picture.png?raw=true)
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/31%20-%20Demo%20Picture.png?raw=true)
 
 
 **CONGRATULATIONS!!! 🥳 You've succesfully built your own TLens that you can use and enjoy wherever you desire!**
@@ -237,10 +283,3 @@ Now it's time to connect our glasses to our Raspberry Pi and power it with our P
 Thank you so much for taking the time to build your own! Feel free to modify the code, glasses, or Pi to best fit your needs and share your creation with others!
 
 -- Arturo Martinez
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-_**Future Goals:**_
-
-1. Make the transcription code automatically start when the Raspberry Pi 5 turns on
-2. Continue to document and improve accessability of this project
