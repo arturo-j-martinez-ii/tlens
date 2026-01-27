@@ -76,12 +76,12 @@ _Next, we are going to set up our Raspberry Pi with our Ubuntu microSD card_
 
 20. Install Raspberry Pi 5 into your specific case [installation will vary, however I will show how mine is set up]
 
-20a.  Disassemble/open case to reveal the case's parts ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/1%20-%20Case%20Before%20Assembly.jpeg?raw=true)
-20b. Insert your Raspberry Pi into the bottom of the case [make sure you can see through all 4 screw holes on the Pi's corners!] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/2%20-%20Placing%20Raspberry%20Pi%20into%20Case%20Bottom.jpeg?raw=true)
-20c. **[DO NOT FORCE THIS]** Connect the case's fan to the "FAN" header near the USB ports and close the white frame over the bottom of the case [the Pi should not move in the case after this step] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/3%20-%20Showing%20How%20Fan%20and%20Pi%20Will%20Connect.jpeg?raw=true)
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/4%20-%20Fan%20and%20Pi%20Connected.jpeg?raw=true)
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/5%20-%20Fan%20and%20Bottom%20Closed%20Together.jpeg?raw=true)
-20d. Flip the Pi over and insert the microSD card into the Raspberry Pi 5 ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/6%20-%20Where%20microSD%20Inserts.jpeg?raw=true) ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/7%20-%20microSD%20Inserted.jpeg?raw=true)
+20a.  Disassemble/open case to reveal the case's parts ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/001%20-%20Case%20Before%20Assembly.jpeg?raw=true)
+20b. Insert your Raspberry Pi into the bottom of the case [make sure you can see through all 4 screw holes on the Pi's corners!] ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/002%20-%20Placing%20Raspberry%20Pi%20into%20Case%20Bottom.jpeg?raw=true)
+20c. **[DO NOT FORCE THIS]** Connect the case's fan to the "FAN" header near the USB ports and close the white frame over the bottom of the case [the Pi should not move in the case after this step] ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/003%20-%20Showing%20How%20Fan%20and%20Pi%20Will%20Connect.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/004%20-%20Fan%20and%20Pi%20Connected.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/005%20-%20Fan%20and%20Bottom%20Closed%20Together.jpeg?raw=true)
+20d. Flip the Pi over and insert the microSD card into the Raspberry Pi 5 ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/006%20-%20Where%20microSD%20Inserts.jpeg?raw=true) ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/007%20-%20microSD%20Inserted.jpeg?raw=true)
 
 Now, you can flip it back over, and we can begin setting up Ubuntu on the Pi!
 
@@ -90,7 +90,7 @@ Now, you can flip it back over, and we can begin setting up Ubuntu on the Pi!
 
 _I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTube is a great resource if you're ever confused or lost!_
 
-23. After this, the Pi should power on and show a black and orange Ubuntu startup screen! [the Pi's power LED will be flashing green until you reach desktop] ![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/8%20-%20Ubuntu%20Startup%20Screen.jpeg?raw=true)
+23. After this, the Pi should power on and show a black and orange Ubuntu startup screen! [the Pi's power LED will be flashing green until you reach desktop] ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/008%20-%20Ubuntu%20Startup%20Screen.jpeg?raw=true)
 24. A  "Welcome" screen should appear with language options
 25. Choose the language you prefer the operating system to be in
 26. Press "Next"
@@ -129,19 +129,19 @@ _To prevent errors when installing, we will make sure our Pi is in the correct t
 
 51. Press on the top right corner of the Desktop where Wi-Fi, Sound, and Power icons are
 
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/9%20-%20Pressing%20Top%20Right%20Desktop.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/009%20-%20Pressing%20Top%20Right%20Desktop.jpeg?raw=true)
 
 53. Press on the gear icon in the new popup menu to access the Pi's settings menu
 
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/10%20-%20Pressing%20Settings.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/010%20-%20Pressing%20Settings.jpeg?raw=true)
 
 54. Scroll down on the left to "System" and Press on the "Date & Time" menu
 
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/11%20-%20Date%20and%20Time%20Menu.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/011%20-%20Date%20and%20Time%20Menu.jpeg?raw=true)
 
 55. Ensure both "Automatic Date & Time" and "Automatic Time Zone" are both enabled [buttons should be orange if they're on]
 
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/12%20-%20Automatic%20Time.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/012%20-%20Automatic%20Time.jpeg?raw=true)
 
 56. Double check the time is correct with your phone or computer! Turn the Pi on and off if the times are different (go back to step 51 and recheck until correct)! [my Pi wasn't correct and caused issues when updating packages]
 
@@ -151,27 +151,27 @@ _To prevent errors when installing, we will make sure our Pi is in the correct t
 
 59. This menu will appear
 
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/13%20-%20Right%20Clicked%20on%20Desktop.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/013%20-%20Right%20Clicked%20on%20Desktop.jpeg?raw=true)
 
 60. Select "Open in Terminal" so a new terminal appears
 
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/14%20-%20New%20Desktop%20Terminal.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/014%20-%20New%20Desktop%20Terminal.jpeg?raw=true)
 
 61. Type `cd` into the terminal press the "Enter" key to Change Directory to your Pi's home directory [you can paste this upcoming code from the block below if this README is open on your Pi!]
 
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/15%20-%20Entered%20cd.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/015%20-%20Entered%20cd.jpeg?raw=true)
 
 _Should look like this after you press "Enter"_
 
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/16%20-%20After%20cd.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/016%20-%20After%20cd.jpeg?raw=true)
 
 62. Type `sudo apt update` into the terminal and press "Enter" to update the Pi's base packages
 
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/17%20-%20sudo%20apt%20update.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/017%20-%20sudo%20apt%20update.jpeg?raw=true)
 
 63. "[sudo] password for *your username*:" will pop up, enter in your Pi's password [no text or * will appear while you're typing, simply press the "Enter" key when you finished typing your password!]
 
-![image alt](https://github.com/arturo-j-martinez-ii/arglassestranscribe/blob/main/images%20for%20README/18%20-%20sudo%20apt%20update%20password.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/018%20-%20sudo%20apt%20update%20password.jpeg?raw=true)
 
 _You will continue to type in the code into the terminal the same way and follow the password step if it appears!_
 
@@ -216,17 +216,17 @@ tk-dev libffi-dev wget libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` int
 
 81. Type in `git clone https://github.com/arturo-j-martinez-ii/tlens.git` and press "Enter" to install the transcription program from this GitHub!
 
-82. Find the "Files" application on the left hand side of the desktop ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/19%20-%20File%20Application.jpeg?raw=true)
+82. Find the "Files" application on the left hand side of the desktop ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/019%20-%20File%20Application.jpeg?raw=true)
 
-83. Go to "Home" and open the new "tlens" folder ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/20%20-%20Home%20Folder.jpeg?raw=true)
+83. Go to "Home" and open the new "tlens" folder ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/020%20-%20Home%20Folder.jpeg?raw=true)
 
-84. Right click within "tlens" folder and select "Open in Terminal" ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/21%20-%20tlens%20Folder.jpeg?raw=true)
+84. Right click within "tlens" folder and select "Open in Terminal" ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/021%20-%20tlens%20Folder.jpeg?raw=true)
 
 85. Type in `python3 tlenscode` and press "Enter" to run the transcription program!
 
 A black screen showing "Starting Transcription..." should appear. 
 
-![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/22%20-%20Starting%20Transciption%20Screen.jpeg?raw=true)
+![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/022%20-%20Starting%20Transciption%20Screen.jpeg?raw=true)
 
 If so, you have successfully finished installing the transcription program!
 
@@ -239,36 +239,36 @@ Now it's time to connect our glasses to our Raspberry Pi and power it with our P
 
 86. Open the BT-35e's case and ensure you have the Headset and Interface Unit
 
- ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/23%20-%20BT35e%20Smart%20Glasses.jpeg?raw=true)
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/023%20-%20BT35e%20Smart%20Glasses.jpeg?raw=true)
 
 Here's the Headset, Interface, and microUSB Cable respectively!
 
- ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/24%20-%20Headset,%20Interface%20Unit,%20microUSB%20Cable.jpeg?raw=true)
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/024%20-%20Headset,%20Interface%20Unit,%20microUSB%20Cable.jpeg?raw=true)
 
 
 87. Connect the Headset's cable to the Interface Unit
 
- ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/25%20-%20Connecting%20Headset%20and%20Interface%20Unit.jpeg?raw=true)
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/025%20-%20Connecting%20Headset%20and%20Interface%20Unit.jpeg?raw=true)
 
 88. Connect our HDMI to microHDMI cable to the Interface Unit and Raspberry Pi respectively
 
- ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/26%20-%20Connecting%20Interface%20Unit%20and%20Raspberry%20Pi.jpeg?raw=true)
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/026%20-%20Connecting%20Interface%20Unit%20and%20Raspberry%20Pi.jpeg?raw=true)
 
 89. Connect our Power Bank and Interface Unit with a USB to microUSB cable [The Interface Unit should have a blue LED flashing on and off]
 
- ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/27%20-%20Connecting%20Interface%20Unit%20and%20Power%20Bank.jpeg?raw=true)
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/027%20-%20Connecting%20Interface%20Unit%20and%20Power%20Bank.jpeg?raw=true)
 
- ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/28%20-%20Connected%20Interface%20Unit%20and%20Power%20Bank.jpeg?raw=true)
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/028%20-%20Connected%20Interface%20Unit%20and%20Power%20Bank.jpeg?raw=true)
 
 90. Put on the Headset and a white box with "<No Signal>" should appear [You may have to move the glasses around to see it!]
 
 91. Connect our Power Bank and Raspberry Pi with a USB to USB C cable [You should see the Ubuntu loading screen and then the login screen appear!]
 
- ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/29%20-%20Connecting%20Power%20Bank%20and%20Raspberry%20Pi.jpeg?raw=true)
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/029%20-%20Connecting%20Power%20Bank%20and%20Raspberry%20Pi.jpeg?raw=true)
 
 92. Connect the microphone's reciever to the Raspberry Pi and turn on the microphone [Should have a Green LED flashing on and off]
 
- ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/30%20-%20Raspberry%20Pi%20USB%20Connections.jpeg?raw=true)
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/030%20-%20Raspberry%20Pi%20USB%20Connections.jpeg?raw=true)
 
 93. Turn on the Raspberry Pi
 
@@ -278,7 +278,7 @@ Here's the Headset, Interface, and microUSB Cable respectively!
 
 You should see a similar result to the Demo video linked in the beginning of this README!
 
- ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/31%20-%20Demo%20Picture.png?raw=true)
+ ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/031%20-%20Demo%20Picture.png?raw=true)
 
 
 **CONGRATULATIONS!!! 🥳 You've succesfully built your own TLens that you can use and enjoy wherever you desire!**
