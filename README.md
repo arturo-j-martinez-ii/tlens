@@ -175,7 +175,7 @@ _Should look like this after you press "Enter"_
 
 _You will continue to type in the code into the terminal the same way and follow the password step if it appears!_
 
-_Don't worry if it looks frozen or takes a while on a step! It's completely normal!_😄
+_Don't worry if it looks frozen or takes a while on a step! It's completely normal!_ 😄
 
 64. Type `sudo apt upgrade` into the terminal and press "Enter" to upgrade the Pi's base packages
 
