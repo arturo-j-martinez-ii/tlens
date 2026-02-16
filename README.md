@@ -2,7 +2,7 @@
 
 _**About This Project:**_
 
-**TLens** is a QL Plus Challenger Project developed by Arturo Martinez, a UTSA Top Scholar Electrical Engineering student.
+**TLens** is a QL Plus Challenger Project developed by Arturo Martinez, a UTSA Electrical Engineering Top Scholar.
 
 This project's ultimate goal is to develop an **open-source transcription device** that doesn't require Wi-Fi or a cellular device for a deaf and visually impaired veteran and, eventually, anyone to use anywhere in the world.
 
