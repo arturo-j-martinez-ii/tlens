@@ -15,39 +15,39 @@ https://github.com/user-attachments/assets/14c15ddd-5138-4f9a-a031-e12b4c58c79d
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-_**Materials Used:**_
+## _**Materials Used:**_
 
-Epson Moverio BT-35e Smart Glasses [recommend looking on Ebay for a pair]: https://epson.com/For-Work/Wearables/Smart-Glasses/Moverio-BT-35E-Smart-Glasses/p/V11H935020
+**Epson Moverio BT-35e Smart Glasses** - [recommend looking on Ebay for a pair]: https://epson.com/For-Work/Wearables/Smart-Glasses/Moverio-BT-35E-Smart-Glasses/p/V11H935020
 
-A Computer connected to Wi-Fi [To install the Ubuntu Desktop OS (used v25.04 for this project)]
+**A Computer connected to Wi-Fi** - [To install the Ubuntu Desktop OS (used v25.04 for this project)]
 
-A Keyboard and Mouse to use the Raspberry Pi 5 [wired/wireless, can be the same ones you used with your computer] 
+**A Keyboard and Mouse to use the Raspberry Pi 5** - [wired/wireless, can be the same ones you used with your computer] 
 
-A Monitor [can be the same monitor you used with your computer (**a Raspberry Pi will not display to a laptop**), this is the one I used!]: https://a.co/d/aF4n6GT
+**A Monitor** - [can be the same monitor you used with your computer (**a Raspberry Pi will not display to a laptop**), this is the one I used!]: https://a.co/d/aF4n6GT
 
-HDMI to micro HDMI Cable [you need the microHDMI to connect to the Raspberry Pi! the HDMI can be changed for whatever your monitor inputs!]: https://www.amazon.com/s?k=hdmi+to+micro+hdmi
+**HDMI to micro HDMI Cable** - [you need the microHDMI to connect to the Raspberry Pi! the HDMI can be changed for whatever your monitor inputs!]: https://www.amazon.com/s?k=hdmi+to+micro+hdmi
 
-Wireless Lavalier Microphone [**ensure** it has USB connector so it can connect to Pi's USB ports]: https://www.amazon.com/s?k=wireless+lavalier+microphones
+**Wireless Lavalier Microphone** - [**ensure** it has USB connector so it can connect to Pi's USB ports]: https://www.amazon.com/s?k=wireless+lavalier+microphones
 
-50000mAh Power Bank [you can use any, **ensure** it can output 5V and 3A+ (get as close to 5A as possible)]: https://www.amazon.com/s?k=50000mah+power+bank
+**50000mAh Power Bank** - [you can use any, **ensure** it can output 5V and 3A+ (get as close to 5A as possible)]: https://www.amazon.com/s?k=50000mah+power+bank
 
-Raspberry Pi 5 [8GB RAM] Starter Kit (128GB microSD card + case with cooling fan + power supply): https://a.co/d/87RnvB4
+**Raspberry Pi 5 [8GB RAM] Starter Kit - (128GB microSD card + case with cooling fan + power supply):** https://a.co/d/87RnvB4
 
 &#8593; **OR buy parts separately (only buy the starter kit OR individual components [the Pi 5, microSD card, and case with cooling fan])** &#8595;
 
-Raspberry Pi 5 [8GB RAM or more]: https://a.co/d/8Ey5J5D
+**Raspberry Pi 5** - [8GB RAM or more]: https://a.co/d/8Ey5J5D
 
-128GB [recommend using 32GB or larger] microSD Card: https://www.amazon.com/s?k=128gb+microsd+card 
+**128GB microSD Card** - [recommend using 32GB or larger]: https://www.amazon.com/s?k=128gb+microsd+card 
 
-Raspberry Pi 5 Case with Cooling Fan [feel free to use any case with a cooling fan! **ensure** you have room to route wires to OLED and PCB (or can make room)]: https://a.co/d/82YHFma
+**Raspberry Pi 5 Case with Cooling Fan** - [feel free to use any case with a cooling fan! **ensure** you have room to route wires to OLED and PCB (or can make room)]: https://a.co/d/82YHFma
 
-SD/microSD USB Adapter [purchase if your computer doesn't have a SD/microSD card reader]: https://www.amazon.com/s?k=microsd+card+adapter+for+pc
+**SD/microSD USB Adapter** - [purchase if your computer doesn't have a SD/microSD card reader]: https://www.amazon.com/s?k=microsd+card+adapter+for+pc
 
-Raspberry Pi 5 Power Supply [not necessary, you can have the Pi running off the power bank alone]: https://a.co/d/awwQ0f8
+**Raspberry Pi 5 Power Supply** - [not necessary, you can have the Pi running off the power bank alone]: https://a.co/d/awwQ0f8
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-_**Setup:**_
+## _**Setup:**_
 
 _First, we will install Ubuntu on our microSD card [you can skip to step 60 if your Pi is set up with Ubuntu and has a case!]_
 
@@ -74,7 +74,7 @@ _First, we will install Ubuntu on our microSD card [you can skip to step 60 if y
 18. Close the Raspberry Pi Imager
 19. You can now safely remove the microSD card from your computer [Ubuntu is now succesfully installed on your microSD card!]
 
-_Next, we are going to set up our Raspberry Pi with our Ubuntu microSD card_
+**_Next, we are going to set up our Raspberry Pi with our Ubuntu microSD card_**
 
 20. Install Raspberry Pi 5 into your specific case [installation will vary, however I will show how mine is set up]
 
@@ -85,12 +85,12 @@ _Next, we are going to set up our Raspberry Pi with our Ubuntu microSD card_
 ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/005%20-%20Fan%20and%20Bottom%20Closed%20Together.jpeg?raw=true)
 20d. Flip the Pi over and insert the microSD card into the Raspberry Pi 5 ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/006%20-%20Where%20microSD%20Inserts.jpeg?raw=true) ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/007%20-%20microSD%20Inserted.jpeg?raw=true)
 
-Now, you can flip it back over, and we can begin setting up Ubuntu on the Pi!
+**_Now, you can flip it back over, and we can begin setting up Ubuntu on the Pi!_**
 
 21. Connect the power, keyboard, mouse, and micro HDMI cables to the Pi
 22. Connect the micro HDMI cable to your monitor
 
-_I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTube is a great resource if you're ever confused or lost!_
+**_I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTube is a great resource if you're ever confused or lost!_**
 
 23. After this, the Pi should power on and show a black and orange Ubuntu startup screen! [the Pi's power LED will be flashing green until you reach desktop] ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/008%20-%20Ubuntu%20Startup%20Screen.jpeg?raw=true)
 24. A  "Welcome" screen should appear with language options
@@ -123,11 +123,11 @@ _I'm using Ubuntu Desktop 25.04 for this setup, so installation may vary! YouTub
 51. A "Get started with more applications" screen should appear
 52. Press "Finish"
 
-_You have successfully setup Ubuntu to run on your Raspberry Pi! You're doing great!_ :goat:
+**_You have successfully setup Ubuntu to run on your Raspberry Pi! You're doing great!_** :goat:
 
-_Now we will begin installing all the libraries we need to use the transcription program_
+**_Now, we will begin installing all the libraries we need to use the transcription program_**
 
-_To prevent errors when installing, we will make sure our Pi is in the correct timezone [mine wasn't and caused errors with the next steps]_
+**_To prevent errors when installing, we will make sure our Pi is in the correct timezone [mine wasn't and caused errors with the next steps]_**
 
 51. Press on the top right corner of the Desktop where Wi-Fi, Sound, and Power icons are
 
@@ -175,9 +175,9 @@ _Should look like this after you press "Enter"_
 
 ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/018%20-%20sudo%20apt%20update%20password.jpeg?raw=true)
 
-_You will continue to type in the code into the terminal the same way and follow the password step if it appears!_
+**_You will continue to type in the code into the terminal the same way and follow the password step if it appears!_**
 
-_Don't worry if it looks frozen or takes a while on a step! It's completely normal!_ 😄
+**_Don't worry if it looks frozen or takes a while on a step! It's completely normal!_** 😄
 
 64. Type `sudo apt upgrade` into the terminal and press "Enter" to upgrade the Pi's base packages
 
@@ -226,59 +226,75 @@ tk-dev libffi-dev wget libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` int
 
 85. Type in `python3 tlenscode` and press "Enter" to run the transcription program!
 
-A black screen showing "Starting Transcription..." should appear. 
+**A black screen showing "Starting Transcription..." should appear.**
 
 ![image alt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/022%20-%20Starting%20Transciption%20Screen.jpeg?raw=true)
 
-If so, you have successfully finished installing the transcription program!
+**If so, you have successfully finished installing the transcription program!**
 
-You can end the program by pressing "Esc" on the top left of your keyboard and run it again by repeating steps 82-85! [Or open a terminal and type `cd` then `cd tlens` then `python3 tlenscode`]
+**You can end the program by pressing "Esc" on the top left of your keyboard and run it again by repeating steps 82-85! [Or open a terminal and type `cd` then `cd tlens` then `python3 tlenscode`]**
 
 
-_You have successfully setup your Raspberry Pi to run the transcription! The hard part is over!_ 🥳
+**_You have successfully setup your Raspberry Pi to run the transcription! The hard part is over!_** 🥳
 
-Now it's time to connect our glasses to our Raspberry Pi and power it with our Power Bank to finish the project!
+**_Now we are going to get our Raspberry Pi to run the transcription on boot!_**
 
-86. Open the BT-35e's case and ensure you have the Headset and Interface Unit
+86. Right click on the Desktop and select "Open a terminal"
+87. Enter `cd`
+88. Enter `mkdir /home/[YOUR RASPBERRY PI'S NAME]/.config/autostart`
+89. Enter `nano /home/[YOUR RASPBERRY PI'S NAME]/.config/autostart/tlens.desktop
+90. Now, in the tlens.desktop file, type in `[Desktop Entry]`
+91. Press enter and type in `Type=Application`
+92. Press enter and type in `Name=Transcribe`
+93. Press enter and type in `Exec=/usr/bin/python3 /home/[YOUR RASPBERRY PI'S NAME]/tlens/tlens.py`
+94. Press Ctrl + X to exit the file
+95. Press Y to save the file
+96. Press Enter to leave the file
+97. Enter `sudo reboot` in the terminal and wait for the Raspberry Pi to automatically start our transcription program!!!
+
+
+**_Now it's time to connect our glasses to our Raspberry Pi and power it with our Power Bank to finish the project!_**
+
+98. Open the BT-35e's case and ensure you have the Headset and Interface Unit
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/023%20-%20BT35e%20Smart%20Glasses.jpeg?raw=true)
 
-Here's the Headset, Interface, and microUSB Cable respectively!
+**_Here's the Headset, Interface, and microUSB Cable respectively!_**
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/024%20-%20Headset,%20Interface%20Unit,%20microUSB%20Cable.jpeg?raw=true)
 
 
-87. Connect the Headset's cable to the Interface Unit
+99. Connect the Headset's cable to the Interface Unit
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/025%20-%20Connecting%20Headset%20and%20Interface%20Unit.jpeg?raw=true)
 
-88. Connect our HDMI to microHDMI cable to the Interface Unit and Raspberry Pi respectively
+100. Connect our HDMI to microHDMI cable to the Interface Unit and Raspberry Pi respectively
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/026%20-%20Connecting%20Interface%20Unit%20and%20Raspberry%20Pi.jpeg?raw=true)
 
-89. Connect our Power Bank and Interface Unit with a USB to microUSB cable [The Interface Unit should have a blue LED flashing on and off]
+101. Connect our Power Bank and Interface Unit with a USB to microUSB cable [The Interface Unit should have a blue LED flashing on and off]
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/027%20-%20Connecting%20Interface%20Unit%20and%20Power%20Bank.jpeg?raw=true)
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/028%20-%20Connected%20Interface%20Unit%20and%20Power%20Bank.jpeg?raw=true)
 
-90. Put on the Headset and a white box with "<No Signal>" should appear [You may have to move the glasses around to see it!]
+102. Put on the Headset and a white box with "<No Signal>" should appear [You may have to move the glasses around to see it!]
 
-91. Connect our Power Bank and Raspberry Pi with a USB to USB C cable [You should see the Ubuntu loading screen and then the login screen appear!]
+103. Connect our Power Bank and Raspberry Pi with a USB to USB C cable [You should see the Ubuntu loading screen and then the login screen appear!]
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/029%20-%20Connecting%20Power%20Bank%20and%20Raspberry%20Pi.jpeg?raw=true)
 
-92. Connect the microphone's reciever to the Raspberry Pi and turn on the microphone [Should have a Green LED flashing on and off]
+104. Connect the microphone's reciever to the Raspberry Pi and turn on the microphone [Should have a Green LED flashing on and off]
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/030%20-%20Raspberry%20Pi%20USB%20Connections.jpeg?raw=true)
 
-93. Turn on the Raspberry Pi
+105. Turn on the Raspberry Pi
 
-94. Login in
+106. Login in
 
-95. Run the transcription program as before!
+107. Run the transcription program as before!
 
-You should see a similar result to the Demo video linked in the beginning of this README!
+**You should see a similar result to the Demo video linked in the beginning of this README!**
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/031%20-%20Demo%20Picture.png?raw=true)
 
