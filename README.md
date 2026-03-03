@@ -242,7 +242,7 @@ tk-dev libffi-dev wget libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` int
 86. Right click on the Desktop and select "Open a terminal"
 87. Enter `cd`
 88. Enter `mkdir /home/[YOUR RASPBERRY PI'S NAME]/.config/autostart`
-89. Enter `nano /home/[YOUR RASPBERRY PI'S NAME]/.config/autostart/tlens.desktop
+89. Enter `nano /home/[YOUR RASPBERRY PI'S NAME]/.config/autostart/tlens.desktop`
 90. Now, in the tlens.desktop file, type in `[Desktop Entry]`
 91. Press enter and type in `Type=Application`
 92. Press enter and type in `Name=Transcribe`
