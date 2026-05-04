@@ -17,34 +17,22 @@ https://github.com/user-attachments/assets/14c15ddd-5138-4f9a-a031-e12b4c58c79d
 
 ## _**Materials Used:**_
 
-**Epson Moverio BT-35e Smart Glasses** - [recommend looking on Ebay for a pair]: https://epson.com/For-Work/Wearables/Smart-Glasses/Moverio-BT-35E-Smart-Glasses/p/V11H935020
-
-**A Computer connected to Wi-Fi** - [To install the Ubuntu Desktop OS (used v25.04 for this project)]
-
-**A Keyboard and Mouse to use the Raspberry Pi 5** - [wired/wireless, can be the same ones you used with your computer] 
-
-**A Monitor** - [can be the same monitor you used with your computer (**a Raspberry Pi will not display to a laptop**), this is the one I used!]: https://a.co/d/aF4n6GT
-
-**HDMI to micro HDMI Cable** - [you need the microHDMI to connect to the Raspberry Pi! the HDMI can be changed for whatever your monitor inputs!]: https://www.amazon.com/s?k=hdmi+to+micro+hdmi
-
-**Wireless Lavalier Microphone** - [**ensure** it has USB connector so it can connect to Pi's USB ports]: https://www.amazon.com/s?k=wireless+lavalier+microphones
-
-**50000mAh Power Bank** - [you can use any, **ensure** it can output 5V and 3A+ (get as close to 5A as possible)]: https://www.amazon.com/s?k=50000mah+power+bank
-
-**Raspberry Pi 5 [8GB RAM] Starter Kit - (128GB microSD card + case with cooling fan + power supply):** https://a.co/d/87RnvB4
-
-&#8593; **OR buy parts separately (only buy the starter kit OR individual components [the Pi 5, microSD card, and case with cooling fan])** &#8595;
-
-**Raspberry Pi 5** - [8GB RAM or more]: https://a.co/d/8Ey5J5D
-
-**128GB microSD Card** - [recommend using 32GB or larger]: https://www.amazon.com/s?k=128gb+microsd+card 
-
-**Raspberry Pi 5 Case with Cooling Fan** - [feel free to use any case with a cooling fan! **ensure** you have room to route wires to OLED and PCB (or can make room)]: https://a.co/d/82YHFma
-
-**SD/microSD USB Adapter** - [purchase if your computer doesn't have a SD/microSD card reader]: https://www.amazon.com/s?k=microsd+card+adapter+for+pc
-
-**Raspberry Pi 5 Power Supply** - [not necessary, you can have the Pi running off the power bank alone]: https://a.co/d/awwQ0f8
-
+| Item Name | Link | Note |
+| --------- | --------- | ------ |
+| Epson Moverio BT-35e Smart Glasses | https://epson.com/For-Work/Wearables/Smart-Glasses/Moverio-BT-35E-Smart-Glasses/p/V11H935020 | Recommend looking on Ebay for a pair
+| Computer connected to Wi-Fi | | Used to install the Ubuntu Desktop OS (used v25.04 for this project) |
+| Keyboard and Mouse | | Must have USB port to connect to Raspberry Pi | 
+| Monitor | https://a.co/d/aF4n6GT | Can be any monitor as long as you buy the correct cable, **Raspberry Pi will not display to a laptop!!!** |
+| HDMI to micro HDMI Cable | https://www.amazon.com/s?k=hdmi+to+micro+hdmi | Need the microHDMI to connect to the Raspberry Pi! **HDMI part can be changed for whatever your monitor inputs!**|
+| Wireless Lavalier Microphone |  https://www.amazon.com/s?k=wireless+lavalier+microphones | **Ensure** it has USB connector/adapter so it can connect to the Raspberry Pi |
+| 50000mAh Power Bank | https://www.amazon.com/s?k=50000mah+power+bank | **Ensure** it can output 5V and 3A+ (get as close to 5A as possible) |
+| SD/microSD USB Adapter | 
+| Raspberry Pi 5 [8GB RAM] Starter Kit | https://a.co/d/87RnvB4 | Has 128GB microSD card + case with cooling fan + power supply | https://www.amazon.com/s?k=microsd+card+adapter+for+pc | Purchase if your computer doesn't have a SD/microSD card reader |
+| &#8593; **OR buy parts separately (only buy the starter kit OR individual components [the Pi 5, microSD card, and case with cooling fan])** &#8595; |
+| Raspberry Pi 5 | https://a.co/d/8Ey5J5D | **Ensure** it has 8GB RAM or more |
+| 128GB microSD Card | https://a.co/d/02I0zfuf | Recommend using 32GB or larger |
+| Raspberry Pi 5 Case with Cooling Fan |  https://a.co/d/82YHFma | Any case with a cooling fan will work! |
+| Raspberry Pi 5 Power Supply | https://a.co/d/awwQ0f8 | Not necessary, you can have the Raspberry Pi running off the power bank alone |
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## _**Setup:**_
@@ -298,7 +286,7 @@ tk-dev libffi-dev wget libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` int
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/031%20-%20Demo%20Picture.png?raw=true)
 
-
+-------------------------------- 
 **CONGRATULATIONS!!! 🥳 You've succesfully built your own TLens that you can use and enjoy wherever you desire!**
 
 Thank you so much for taking the time to build your own! Feel free to modify the code, glasses, or Pi to best fit your needs and share your creation with others!
