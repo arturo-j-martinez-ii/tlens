@@ -227,23 +227,31 @@ tk-dev libffi-dev wget libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` int
 
 **_Now we are going to get our Raspberry Pi to run the transcription on boot!_**
 
-86. Right click on the Desktop and select "Open a terminal"
-87. Enter `cd`
-88. Enter `mkdir /home/[YOUR RASPBERRY PI'S NAME]/.config/autostart`
-89. Enter `nano /home/[YOUR RASPBERRY PI'S NAME]/.config/autostart/tlens.desktop`
-90. Now, in the tlens.desktop file, type in `[Desktop Entry]`
-91. Press enter and type in `Type=Application`
-92. Press enter and type in `Name=Transcribe`
-93. Press enter and type in `Exec=/usr/bin/python3 /home/[YOUR RASPBERRY PI'S NAME]/tlens/tlens.py`
-94. Press Ctrl + X to exit the file
-95. Press Y to save the file
-96. Press Enter to leave the file
-97. Enter `sudo reboot` in the terminal and wait for the Raspberry Pi to automatically start our transcription program!!!
+86. Turn off the Pi and connect it with your power bank
+87. If the "This power supply is not capable of..." notification comes up, press on it and press "Don't show again" [Picture Credit: Dave Jones]
+<img width="521" height="160" alt="image" src="https://github.com/user-attachments/assets/34d5e14e-0e53-4d3f-b8ec-ba3510c339c5" />
+
+88. Go into the Settings
+89. Scroll to find the Power tab
+90. Change the "Screen Blank" time to "Never"
+91. Close the Settings window
+92. Right click on the Desktop and select "Open a terminal"
+93. Enter `cd`
+94. Enter `mkdir /home/[YOUR RASPBERRY PI'S NAME]/.config/autostart`
+95. Enter `nano /home/[YOUR RASPBERRY PI'S NAME]/.config/autostart/tlens.desktop`
+96. Now, in the tlens.desktop file, type in `[Desktop Entry]`
+97. Press enter and type in `Type=Application`
+98. Press enter and type in `Name=Transcribe`
+99. Press enter and type in `Exec=/usr/bin/python3 /home/[YOUR RASPBERRY PI'S NAME]/tlens/tlens.py`
+100. Press Ctrl + X to exit the file
+101. Press Y to save the file
+102. Press Enter to leave the file
+103. Enter `sudo reboot` in the terminal and wait for the Raspberry Pi to automatically start our transcription program!!!
 
 
 **_Now it's time to connect our glasses to our Raspberry Pi and power it with our Power Bank to finish the project!_**
 
-98. Open the BT-35e's case and ensure you have the Headset and Interface Unit
+104. Open the BT-35e's case and ensure you have the Headset and Interface Unit
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/023%20-%20BT35e%20Smart%20Glasses.jpeg?raw=true)
 
@@ -252,35 +260,33 @@ tk-dev libffi-dev wget libopenblas-dev libsndfile1 libportaudio2 ffmpeg git` int
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/024%20-%20Headset,%20Interface%20Unit,%20microUSB%20Cable.jpeg?raw=true)
 
 
-99. Connect the Headset's cable to the Interface Unit
+105. Connect the Headset's cable to the Interface Unit
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/025%20-%20Connecting%20Headset%20and%20Interface%20Unit.jpeg?raw=true)
 
-100. Connect our HDMI to microHDMI cable to the Interface Unit and Raspberry Pi respectively
+106. Connect our HDMI to microHDMI cable to the Interface Unit and Raspberry Pi respectively
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/026%20-%20Connecting%20Interface%20Unit%20and%20Raspberry%20Pi.jpeg?raw=true)
 
-101. Connect our Power Bank and Interface Unit with a USB to microUSB cable [The Interface Unit should have a blue LED flashing on and off]
+107. Connect our Power Bank and Interface Unit with a USB to microUSB cable [The Interface Unit should have a blue LED flashing on and off]
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/027%20-%20Connecting%20Interface%20Unit%20and%20Power%20Bank.jpeg?raw=true)
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/028%20-%20Connected%20Interface%20Unit%20and%20Power%20Bank.jpeg?raw=true)
 
-102. Put on the Headset and a white box with "<No Signal>" should appear [You may have to move the glasses around to see it!]
+108. Put on the Headset and a white box with "<No Signal>" should appear [You may have to move the glasses around to see it!]
 
-103. Connect our Power Bank and Raspberry Pi with a USB to USB C cable [You should see the Ubuntu loading screen and then the login screen appear!]
+109. Connect our Power Bank and Raspberry Pi with a USB to USB C cable [You should see the Ubuntu loading screen and then the login screen appear!]
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/029%20-%20Connecting%20Power%20Bank%20and%20Raspberry%20Pi.jpeg?raw=true)
 
-104. Connect the microphone's reciever to the Raspberry Pi and turn on the microphone [Should have a Green LED flashing on and off]
+110. Connect the microphone's reciever to the Raspberry Pi and turn on the microphone [Should have a Green LED flashing on and off]
 
  ![imagealt](https://github.com/arturo-j-martinez-ii/tlens/blob/main/images%20for%20README/030%20-%20Raspberry%20Pi%20USB%20Connections.jpeg?raw=true)
 
-105. Turn on the Raspberry Pi
+111. Turn on the Raspberry Pi and watch the transcription program automatically run!
 
-106. Login in
 
-107. Run the transcription program as before!
 
 **You should see a similar result to the Demo video linked in the beginning of this README!**
 
